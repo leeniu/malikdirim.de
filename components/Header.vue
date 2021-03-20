@@ -12,14 +12,13 @@
 </template>
 
 <script>
-import { Name, Avatar } from '@/components'
+import Avatar from '@/components/Avatar'
+import Name from '@/components/Name'
 
 export default {
-  name: 'Header',
   components: {
     Name,
     Avatar
   }
 }
 </script>
-<style lang="scss" scoped></style>

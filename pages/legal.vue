@@ -59,10 +59,9 @@
 </template>
 
 <script>
-import { contactData } from '@/mixins'
+import contactData from '@/mixins/contactData'
 
 export default {
-  name: 'Legal',
   mixins: [contactData],
   /* istanbul ignore next */
   head() {
