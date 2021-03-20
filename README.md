@@ -4,6 +4,11 @@
 
 This is the personal homepage of Malik Dirim, web developer and it enthusiast. The project is based on [Nuxt.js](https://nuxtjs.org/) and the master branch of this repository is automatically deployed on [Netlify](https://www.netlify.com/).
 
+## Requirements
+
+- Node.js 14
+- Yarn
+
 ## Status
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/26083516-f5bd-4b86-91c2-3f310018a0f2/deploy-status)](https://app.netlify.com/sites/quizzical-swartz-07c1b3/deploys)
@@ -14,17 +19,17 @@ This is the personal homepage of Malik Dirim, web developer and it enthusiast. T
 
 ```bash
 # install dependencies
-$ npm install
+$ yarn install
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+$ yarn dev
 
 # build for production and launch server
-$ npm run build
-$ npm run start
+$ yarn build
+$ yarn start
 
 # generate static project
-$ npm run generate
+$ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
