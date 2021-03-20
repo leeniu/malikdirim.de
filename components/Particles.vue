@@ -8,7 +8,10 @@
       :shape-type="'circle'"
       :particles-number="50"
       :particle-opacity="0.2"
+<<<<<<< HEAD
       class="h-screen w-screen"
+=======
+>>>>>>> develop
     />
   </client-only>
 </template>
