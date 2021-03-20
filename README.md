@@ -11,9 +11,7 @@ This is the personal homepage of Malik Dirim, web developer and it enthusiast. T
 
 ## Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/26083516-f5bd-4b86-91c2-3f310018a0f2/deploy-status)](https://app.netlify.com/sites/quizzical-swartz-07c1b3/deploys)
-
-![Statements](/static/badges/badge-statements.svg) ![Branches](/static/badges/badge-branches.svg) ![Functions](/static/badges/badge-functions.svg) ![Lines](/static/badges/badge-lines.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dc8217e8-cac9-42da-bb31-afca975a0057/deploy-status)](https://app.netlify.com/sites/kind-hodgkin-dca640/deploys)
 
 ## Build Setup
 
