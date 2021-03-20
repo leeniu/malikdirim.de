@@ -1,0 +1,23 @@
+// tailwind.config.js
+const { colors } = require('tailwindcss/defaultTheme')
+module.exports = {
+  purge: ['./pages/**/*.vue', './layouts/**/*.vue', './components/**/*.vue'],
+  theme: {
+    extend: {
+      colors: {
+        rss: '#f26522',
+        xing: '#cfdc00',
+        gitlab: '#fd7e14',
+        github: '#6f42c1',
+        docker: '#0db7ed',
+        twitter: '#1DA1F2',
+        flybytes: '#95c11f',
+        codepen: '#ffdd40',
+        email: colors.primary,
+        primary: colors.teal[700]
+      }
+    }
+  },
+  variants: {},
+  plugins: []
+}

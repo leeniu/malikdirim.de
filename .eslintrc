@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "extends": [
+    "plugin:sonarjs/recommended",
+    "@nuxtjs",
+    "prettier",
+    "prettier/vue",
+    "plugin:prettier/recommended",
+    "plugin:nuxt/recommended"
+  ],
+  "plugins": ["vue", "sonarjs", "prettier"],
+  // add your custom rules here
+  "rules": {
+    "sonarjs/cognitive-complexity": "error",
+    "sonarjs/no-identical-expressions": "error"
+  }
+}
