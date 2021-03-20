@@ -8,6 +8,7 @@ const meta = {
 }
 
 export default {
+  target: 'static',
   /*
    ** Headers of the page
    */
