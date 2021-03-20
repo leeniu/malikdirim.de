@@ -8,7 +8,6 @@
       :shape-type="'circle'"
       :particles-number="50"
       :particle-opacity="0.2"
-      class="h-screen w-screen"
     />
   </client-only>
 </template>
