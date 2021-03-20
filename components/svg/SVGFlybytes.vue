@@ -8,9 +8,3 @@
     />
   </svg>
 </template>
-
-<script>
-export default {
-  name: 'SVGFlybytes'
-}
-</script>

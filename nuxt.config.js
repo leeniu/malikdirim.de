@@ -69,7 +69,14 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/components/svg'],
+  plugins: [
+    '~/components/svg',
+    '~/components/base',
+    {
+      src: '~/plugins/vue-particles',
+      mode: 'client'
+    }
+  ],
   /*
    ** Nuxt.js dev-modules
    */

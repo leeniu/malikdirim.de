@@ -9,7 +9,8 @@
 </template>
 
 <script>
-import { Header, Footer } from '@/components'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export default {
   components: {
@@ -18,29 +19,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-h1 {
-  @apply text-3xl py-3 font-semibold;
-}
-
-h2 {
-  @apply text-2xl py-2 font-normal;
-}
-
-h3 {
-  @apply text-xl py-1 font-normal;
-}
-
-p {
-  @apply mb-4;
-}
-
-a {
-  @apply transform transition duration-300 ease-in-out;
-
-  &:hover {
-    @apply text-primary;
-  }
-}
-</style>

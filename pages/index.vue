@@ -43,13 +43,12 @@
 </template>
 
 <script>
-import { BaseImage, Cat } from '@/components'
+import Cat from '@/components/Cat'
 
 export default {
-  name: 'Home',
+  layout: 'home',
   components: {
-    Cat,
-    BaseImage
+    Cat
   },
   data() {
     return {
