@@ -243,9 +243,3 @@
     <circle cx="460.946" cy="355.1155" r="5" opacity="0.3" />
   </svg>
 </template>
-
-<script>
-export default {
-  name: 'SVG404'
-}
-</script>

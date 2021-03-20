@@ -3,11 +3,9 @@
 </template>
 
 <script>
-import { contactData } from '@/mixins'
+import contactData from '@/mixins/contactData'
 
 export default {
-  name: 'Name',
   mixins: [contactData]
 }
 </script>
-<style lang="scss" scoped></style>

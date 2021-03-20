@@ -3,14 +3,9 @@
 </template>
 
 <script>
-import { BaseImage } from '@/components'
-import { contactData } from '@/mixins'
+import contactData from '@/mixins/contactData'
 
 export default {
-  name: 'Avatar',
-  components: {
-    BaseImage
-  },
   mixins: [contactData],
   computed: {
     alt() {
@@ -19,4 +14,3 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped></style>
