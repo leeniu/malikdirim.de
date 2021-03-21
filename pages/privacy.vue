@@ -62,9 +62,7 @@
       Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
     </p>
     <h3>Hinweis zur verantwortlichen Stelle</h3>
-    <p>
-      Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
-    </p>
+    <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
     <p>
       {{ contact.name }}<br />
       {{ contact.street }}<br />
@@ -84,9 +82,7 @@
       erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die
       Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
     </p>
-    <h3>
-      Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)
-    </h3>
+    <h3>Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)</h3>
     <p>
       Wenn die Datenverarbeitung auf Grundlage von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, haben Sie jederzeit das
       Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Verarbeitung Ihrer
@@ -190,9 +186,7 @@
       <li>Uhrzeit der Serveranfrage</li>
       <li>IP-Adresse</li>
     </ul>
-    <p>
-      Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.
-    </p>
+    <p>Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.</p>
     <p>
       Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein
       berechtigtes Interesse an der technisch fehlerfreien Darstellung und der Optimierung seiner Website – hierzu
