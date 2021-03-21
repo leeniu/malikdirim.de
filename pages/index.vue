@@ -3,7 +3,7 @@
     <section class="w-full md:w-5/8 mb-16 md:mb-0">
       <h2
         :class="[showSlogan ? 'opacity-100' : 'opacity-0']"
-        class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-6 sm:mb-8 md:mb-12 font-thin transition duration-500"
+        class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-6 sm:mb-8 md:mb-12 font-extralight transition duration-500"
       >
         Full-Stack Web-Developer
       </h2>
@@ -46,10 +46,10 @@
 import Cat from '@/components/Cat'
 
 export default {
-  layout: 'home',
   components: {
     Cat
   },
+  layout: 'home',
   data() {
     return {
       showSlogan: false,
@@ -108,6 +108,12 @@ export default {
       ]
     }
   },
+  /* istanbul ignore next */
+  head() {
+    return {
+      title: 'Home'
+    }
+  },
   async mounted() {
     await this.timer(500)
     this.showSlogan = true
@@ -132,12 +138,6 @@ export default {
         await this.timer(500)
         this.profiles[i].show = true
       }
-    }
-  },
-  /* istanbul ignore next */
-  head() {
-    return {
-      title: 'Home'
     }
   }
 }

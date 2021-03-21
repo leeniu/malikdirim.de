@@ -8,12 +8,10 @@
     "parser": "babel-eslint"
   },
   "extends": [
-    "plugin:sonarjs/recommended",
     "@nuxtjs",
-    "prettier",
-    "prettier/vue",
-    "plugin:prettier/recommended",
-    "plugin:nuxt/recommended"
+    "plugin:nuxt/recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:prettier/recommended"
   ],
   "plugins": ["vue", "sonarjs", "prettier"],
   // add your custom rules here

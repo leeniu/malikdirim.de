@@ -13,8 +13,8 @@ module.exports = {
         twitter: '#1DA1F2',
         flybytes: '#95c11f',
         codepen: '#ffdd40',
-        email: colors.primary,
-        primary: colors.teal[700]
+        primary: '#0F766E',
+        email: colors.primary
       }
     }
   },
