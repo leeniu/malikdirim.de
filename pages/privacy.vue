@@ -68,10 +68,7 @@
       {{ contact.street }}<br />
       {{ contact.city }}
     </p>
-    <p>
-      Telefon: {{ contact.phone }}<br />
-      E-Mail: {{ contact.email.privacy }}
-    </p>
+    <p>E-Mail: {{ contact.email.privacy }}</p>
     <p>
       Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die
       Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet.

@@ -8,10 +8,7 @@
       {{ contact.city }}
     </p>
     <h2>Kontakt</h2>
-    <p>
-      Telefon: {{ contact.phone }}<br />
-      E-Mail: {{ contact.email.legal }}
-    </p>
+    <p>E-Mail: {{ contact.email.legal }}</p>
     <h3>Haftung für Inhalte</h3>
     <p>
       Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen
