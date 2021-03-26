@@ -20,6 +20,7 @@
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.4.0",
     "nuxt": "^2.14.5",
+    "nuxt-compress": "^4.1.0",
     "snyk": "^1.503.0",
     "vue-particles": "^1.0.9"
   },

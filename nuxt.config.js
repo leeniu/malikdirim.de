@@ -29,7 +29,7 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: meta.title
+        content: '%s | Malik Dirim - Web Developer & IT Enthusiast'
       },
       {
         hid: 'og:site_name',
@@ -90,6 +90,20 @@ export default {
         configPath: '~/tailwind.config.js',
         cssPath: '~/assets/css/tailwind.css'
       }
+    ],
+    // https://github.com/robcresswell/nuxt-compress
+    [
+      'nuxt-compress',
+      {
+        gzip: {
+          cache: true
+        },
+        brotli: {
+          mode: 1,
+          quality: 10,
+          threshold: 10240
+        }
+      }
     ]
   ],
   /*
@@ -113,7 +127,7 @@ export default {
       {
         hostname: 'https://malikdirim.de',
         gzip: true,
-        exclude: ['/legal', '/privacy']
+        exclude: ['/legal', '/privacy', '/404']
       }
     ]
   ],
