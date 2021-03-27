@@ -68,7 +68,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['./assets/fonts/manrope-v4-latin/manrope.css', './assets/css/main.scss'],
+  css: ['./assets/css/manrope.css'],
   /*
    ** Plugins to load before mounting the App
    */
