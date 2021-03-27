@@ -9,9 +9,6 @@ const meta = {
 
 export default {
   target: 'static',
-  /*
-   ** Headers of the page
-   */
   generate: {
     fallback: true
   },
@@ -71,7 +68,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['./assets/css/main.scss'],
+  css: ['./assets/fonts/manrope-v4-latin/manrope.css', './assets/css/main.scss'],
   /*
    ** Plugins to load before mounting the App
    */
