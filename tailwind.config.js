@@ -16,6 +16,11 @@ module.exports = {
         primary: '#0F766E',
         email: colors.primary
       }
+    },
+    fontFamily: {
+      sans: ['Manrope', 'sans-serif'],
+      serif: ['serif'],
+      mono: ['monospace']
     }
   },
   variants: {},
