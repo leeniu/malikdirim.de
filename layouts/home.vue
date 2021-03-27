@@ -1,5 +1,5 @@
 <template>
-  <div class="text-gray-800 antialiased bg-gray-100 font-light relative flex justify-center w-full h-screen">
+  <div class="relative flex justify-center w-full h-screen">
     <Particles class="absolute z-0 h-full w-full" />
     <div class="absolute z-10 flex flex-col h-full container mx-auto px-4">
       <Header />
