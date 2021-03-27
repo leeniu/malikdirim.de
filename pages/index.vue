@@ -3,9 +3,9 @@
     <section class="w-full md:w-5/8 mb-16 md:mb-0">
       <h2
         :class="[showSlogan ? 'opacity-100' : 'opacity-0']"
-        class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-6 sm:mb-8 md:mb-12 font-extralight transition duration-500"
+        class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 sm:mb-8 md:mb-12 sm:tracking-wider font-light sm:font-extralight transition duration-500"
       >
-        Full-Stack Web-Developer
+        Web-Developer
       </h2>
 
       <ul class="w-full sm:w-1/2 grid grid-cols-4 gap-2">

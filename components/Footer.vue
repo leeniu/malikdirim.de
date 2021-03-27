@@ -1,9 +1,9 @@
 <template>
   <footer class="py-4">
     <nav>
-      <ul class="flex flex-col sm:flex-row align-center">
-        <li v-for="(link, index) in links" :key="index">
-          <nuxt-link :to="{ name: link.name }" class="sm:mr-4">{{ link.title }}</nuxt-link>
+      <ul class="flex flex-col sm:flex-row items-end justify-end">
+        <li v-for="(link, index) in links" :key="index" class="mb-3 mr-6">
+          <nuxt-link :to="{ name: link.name }">{{ link.title }}</nuxt-link>
         </li>
       </ul>
     </nav>
