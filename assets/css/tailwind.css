@@ -5,6 +5,10 @@
 @import 'tailwindcss/utilities';
 
 @layer base {
+  body {
+    @apply  bg-gray-100 text-gray-800;
+  }
+
   h1 {
     @apply text-3xl py-3 font-semibold;
   }
