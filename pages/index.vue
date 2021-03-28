@@ -1,6 +1,6 @@
 <template>
   <main class="flex flex-1 flex-col md:flex-row md:justify-center md:items-center pt-10 md:pt-0">
-    <section class="w-full md:w-5/8 mb-16 md:mb-0">
+    <section class="w-full md:w-5/8 mb-8 md:mb-0">
       <h2
         class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 sm:mb-8 md:mb-12 sm:tracking-wider font-light sm:font-extralight transition duration-500"
       >
@@ -25,12 +25,15 @@
         </li>
       </ul>
     </section>
-    <section class="w-full md:w-3/8 p-8 md:p-0 md:-mt-12">
+    <section class="w-full md:w-3/8 mb-8 md:mb-0 px-8 sm:px-12 md:px-16 lg:px-0 md:-mt-12">
       <Cat class="hidden xl:block" />
-      <img
+      <nuxt-img
+        format="png"
+        quality="80"
+        fit="contain"
         src="/img/cat.png"
         alt="Image of a cute sleeping cat"
-        class="block xl:hidden w-full h-auto max-w-sm mx-auto"
+        class="block xl:hidden mx-auto"
       />
     </section>
   </main>
