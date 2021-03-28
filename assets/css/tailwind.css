@@ -50,5 +50,9 @@
   textarea,
   select {
     @apply mt-1 rounded-lg w-full border-gray-300 shadow-inner focus:border-primary focus:ring-primary;
+  },
+  [type="checkbox"],
+  [type="radio"] {
+    @apply mt-1 rounded border-gray-300 text-primary focus:ring-primary-lighter
   }
 }
