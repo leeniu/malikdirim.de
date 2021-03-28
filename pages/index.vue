@@ -25,8 +25,17 @@
               :is="link.comp"
               :class="[{ 'opacity-0': !link.show }, link.classes]"
               class="p-2 w-auto h-10 sm:h-10 lg:h-12 xl:h-16 transition duration-200 fill-current"
-            ></component>
+            />
           </a>
+        </li>
+        <li key="contact">
+          <a href="#" @click.prevent="onShowModal">
+            <SVGEmail
+              :class="[{ 'opacity-0': !showContactLink }]"
+              class="p-2 w-auto h-10 sm:h-10 lg:h-12 xl:h-16 transition duration-200 fill-current hover:text-email"
+            />
+          </a>
+          <ContactModal ref="contactModal" />
         </li>
       </ul>
     </section>
@@ -43,17 +52,20 @@
 </template>
 
 <script>
+import ContactModal from '@/components/ContactModal'
 import Cat from '@/components/Cat'
 
 export default {
   components: {
-    Cat
+    Cat,
+    ContactModal
   },
   layout: 'home',
   data() {
     return {
-      showSlogan: false,
       showImage: false,
+      showSlogan: false,
+      showContactLink: false,
       creations: [
         {
           href: 'https://gitlab.com/m.dirim',
@@ -98,12 +110,6 @@ export default {
           classes: 'hover:text-xing',
           comp: 'SVGXing',
           show: false
-        },
-        {
-          href: 'mailto:contact@malikdirim.de',
-          classes: 'hover:text-email',
-          comp: 'SVGEmail',
-          show: false
         }
       ]
     }
@@ -121,9 +127,21 @@ export default {
     await this.addCreationsIcons()
     await this.addProfilesIcons()
     await this.timer(500)
+    this.showContactLink = true
+    await this.timer(500)
     this.showImage = true
   },
   methods: {
+    onShowModal() {
+      this.$refs.contactModal.show()
+    },
+    /**
+     * Abstracts the native javascript timeout
+     * function into a awaitable promise.
+     *
+     * @param   {Number}  ms  Millisekonds
+     * @returns {Promise}
+     */
     timer(ms) {
       return new Promise(resolve => setTimeout(resolve, ms))
     },
