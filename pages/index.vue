@@ -96,12 +96,6 @@ export default {
       ]
     }
   },
-  /* istanbul ignore next */
-  head() {
-    return {
-      title: 'Home'
-    }
-  },
   methods: {
     onShowModal() {
       this.$refs.contactModal.show()
