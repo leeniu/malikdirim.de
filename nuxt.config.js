@@ -107,7 +107,9 @@ export default {
           threshold: 10240
         }
       }
-    ]
+    ],
+    // EXPERIMENTAL: https://github.com/nuxt/image
+    '@nuxt/image'
   ],
   /*
    ** Nuxt.js modules
