@@ -14,6 +14,8 @@ module.exports = {
         flybytes: '#95c11f',
         codepen: '#ffdd40',
         primary: '#0F766E',
+        'primary-darker': '#115E59',
+        'primary-lighter': '#0D9488',
         email: colors.primary
       }
     },
@@ -24,5 +26,5 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: []
+  plugins: [require('@tailwindcss/forms')]
 }
