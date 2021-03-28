@@ -1,34 +1,3 @@
-<script>
-export default {
-  data() {
-    return {
-      name: '',
-      email: '',
-      message: '',
-      privacy: false
-    }
-  },
-  methods: {
-    submitForm(e) {
-      e.preventDefault()
-      this.$emit('submit', {
-        name: this.name,
-        email: this.email,
-        message: this.message,
-        privacy: this.privacy,
-        'form-name': 'Contact'
-      })
-    },
-    reset() {
-      this.name = ''
-      this.email = ''
-      this.message = ''
-      this.privacy = false
-    }
-  }
-}
-</script>
-
 <template>
   <form
     name="Contact"
@@ -77,3 +46,34 @@ export default {
     </div>
   </form>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      name: '',
+      email: '',
+      message: '',
+      privacy: false
+    }
+  },
+  methods: {
+    submitForm(e) {
+      e.preventDefault()
+      this.$emit('submit', {
+        name: this.name,
+        email: this.email,
+        message: this.message,
+        privacy: this.privacy,
+        'form-name': 'Contact'
+      })
+    },
+    reset() {
+      this.name = ''
+      this.email = ''
+      this.message = ''
+      this.privacy = false
+    }
+  }
+}
+</script>
