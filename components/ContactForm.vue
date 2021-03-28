@@ -4,7 +4,8 @@ export default {
     return {
       name: '',
       email: '',
-      message: ''
+      message: '',
+      privacy: false
     }
   },
   methods: {
@@ -14,6 +15,7 @@ export default {
         name: this.name,
         email: this.email,
         message: this.message,
+        privacy: this.privacy,
         'form-name': 'Contact'
       })
     },
@@ -21,6 +23,7 @@ export default {
       this.name = ''
       this.email = ''
       this.message = ''
+      this.privacy = false
     }
   }
 }
@@ -46,6 +49,24 @@ export default {
       >Nachricht
       <textarea id="message" v-model="message" name="message" rows="4" required></textarea>
     </label>
+
+    <div class="flex items-start">
+      <input id="privacy" v-model="privacy" name="privacy" type="checkbox" required />
+      <label for="privacy" class="ml-2 block text-sm text-gray-700 text-justify">
+        Ja, ich habe die
+        <nuxt-link to="privacy" class="text-primary-darker underline" target="_blank"
+          >Datenschutzerkl&auml;rung</nuxt-link
+        >
+        zur Kenntnis genommen und bin damit einverstanden, dass die von mir angegebenen Daten elektronisch erhoben und
+        gespeichert werden. Meine Daten werden dabei nur streng zweckgebunden zur Bearbeitung und Beantwortung meiner
+        Anfrage genutzt. Mit dem Absenden des Kontaktformulars erkl&auml;re ich mich mit der Verarbeitung einverstanden.
+        Nach Abschluss der Verarbeitung werden die erhobenen Daten gel&ouml;scht.<span class="text-gray-400"
+          >&nbsp;(Sie k&ouml;nnen diese Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per
+          E-Mail an uns.)</span
+        >
+      </label>
+    </div>
+
     <div class="text-right">
       <button
         type="submit"
