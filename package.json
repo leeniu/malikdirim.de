@@ -1,8 +1,8 @@
 {
-  "name": "malikdirim.de",
+  "name": "homepage",
   "version": "1.0.0",
   "description": "The personal homepage of Malik Dirim",
-  "author": "Cappic90<malikdirim@cappic90.de>",
+  "author": "Malik Dirim",
   "private": true,
   "scripts": {
     "dev": "nuxt",
