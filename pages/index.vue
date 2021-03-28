@@ -33,10 +33,10 @@
         <img :src="require('~/assets/img/cat.png')" alt="Image of a cute sleeping cat" class="mx-auto" />
       </picture>
       <picture class="block lg:hidden">
-        <source :srcSet="require('~/assets/img/cat.png?format=avif&resize&size=300')" type="image/avif" />
-        <source :srcSet="require('~/assets/img/cat.png?format=webp&resize&size=300')" type="image/webp" />
+        <source :srcSet="require('~/assets/img/cat.png?format=avif&resize&size=528')" type="image/avif" />
+        <source :srcSet="require('~/assets/img/cat.png?format=webp&resize&size=528')" type="image/webp" />
         <img
-          :src="require('~/assets/img/cat.png?resize&size=300')"
+          :src="require('~/assets/img/cat.png?resize&size=528')"
           alt="Image of a cute sleeping cat"
           class="mx-auto"
         />

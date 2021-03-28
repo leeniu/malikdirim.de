@@ -4,10 +4,10 @@
       <div class="block pr-4">
         <nuxt-link to="/" class="flex flex-row items-center">
           <picture>
-            <source :srcSet="require('~/assets/img/avatar.jpg?format=avif&resize&size=32')" type="image/avif" />
-            <source :srcSet="require('~/assets/img/avatar.jpg?format=webp&resize&size=32')" type="image/webp" />
+            <source :srcSet="require('~/assets/img/avatar.jpg?format=avif&resize&size=64')" type="image/avif" />
+            <source :srcSet="require('~/assets/img/avatar.jpg?format=webp&resize&size=64')" type="image/webp" />
             <img
-              :src="require('~/assets/img/avatar.jpg?resize&size=32')"
+              :src="require('~/assets/img/avatar.jpg?resize&size=64')"
               alt="Avatar von Malik Dirim"
               class="inline-block mx-auto h-8 w-auto rounded-full text-white shadow-solid mr-3"
             />
