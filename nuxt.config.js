@@ -1,5 +1,3 @@
-require('dotenv').config()
-
 const meta = {
   description: 'Web-Entwicklung, Tooling, DevOps, Security & Privacy',
   title: 'Malik Dirim - Web Developer & IT Enthusiast',
