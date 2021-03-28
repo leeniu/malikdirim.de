@@ -14,13 +14,8 @@
   </div>
 </template>
 <script>
-import NotFound from '@/components/NotFound'
-
 export default {
   name: 'Error',
-  components: {
-    NotFound
-  },
   props: {
     error: {
       type: Object,

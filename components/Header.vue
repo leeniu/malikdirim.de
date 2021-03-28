@@ -10,15 +10,3 @@
     </nav>
   </header>
 </template>
-
-<script>
-import Avatar from '@/components/Avatar'
-import Name from '@/components/Name'
-
-export default {
-  components: {
-    Name,
-    Avatar
-  }
-}
-</script>

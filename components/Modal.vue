@@ -36,12 +36,7 @@
 </template>
 
 <script>
-import SVGCross from '@/components/svg/SVGCross'
-
 export default {
-  components: {
-    SVGCross
-  },
   methods: {
     close() {
       this.$emit('close')

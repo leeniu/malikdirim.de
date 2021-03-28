@@ -40,14 +40,7 @@
 </template>
 
 <script>
-import ContactModal from '@/components/ContactModal'
-import Cat from '@/components/Cat'
-
 export default {
-  components: {
-    Cat,
-    ContactModal
-  },
   layout: 'home',
   data() {
     return {

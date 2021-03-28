@@ -61,32 +61,26 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  /*
-   ** Customize the progress-bar color
-   */
-  loading: { color: '#fff' },
-  /*
-   ** Global CSS
-   */
+  loading: { color: '#0F766E' },
   css: ['./assets/css/manrope.css'],
-  /*
-   ** Plugins to load before mounting the App
+  /**
+   * https://github.com/nuxt/components
    */
+  components: ['~/components/'],
   plugins: [
-    '~/components/svg',
-    '~/components/base',
     {
       src: '~/plugins/vue-particles',
       mode: 'client'
     }
   ],
-  /*
-   ** Nuxt.js dev-modules
-   */
   buildModules: [
-    // Docs: https://github.com/nuxt-community/eslint-module
+    /**
+     * https://github.com/nuxt-community/eslint-module
+     */
     '@nuxtjs/eslint-module',
-    // Docs: https://github.com/nuxt-community/nuxt-tailwindcss
+    /**
+     * https://github.com/nuxt-community/nuxt-tailwindcss
+     */
     [
       '@nuxtjs/tailwindcss',
       {
@@ -94,7 +88,9 @@ export default {
         cssPath: '~/assets/css/tailwind.css'
       }
     ],
-    // https://github.com/robcresswell/nuxt-compress
+    /**
+     * https://github.com/robcresswell/nuxt-compress
+     */
     [
       'nuxt-compress',
       {
@@ -108,16 +104,19 @@ export default {
         }
       }
     ],
-    // EXPERIMENTAL: https://github.com/nuxt/image
+    /**
+     * EXPERIMENTAL: https://github.com/nuxt/image
+     */
     '@nuxt/image'
   ],
-  /*
-   ** Nuxt.js modules
-   */
   modules: [
-    // Docs: https://github.com/nuxt-community/pwa-module
+    /**
+     * https://github.com/nuxt-community/pwa-module
+     */
     '@nuxtjs/pwa',
-    // Docs: https://github.com/nuxt-community/robots-module
+    /**
+     * https://github.com/nuxt-community/robots-module
+     */
     [
       '@nuxtjs/robots',
       {
@@ -126,23 +125,16 @@ export default {
         Sitemap: 'https://malikdirim.de/sitemap.xml'
       }
     ],
-    // Docs: https://github.com/nuxt-community/sitemap-module
+    /**
+     * https://github.com/nuxt-community/sitemap-module
+     */
     [
       '@nuxtjs/sitemap',
       {
-        hostname: 'https://malikdirim.de',
         gzip: true,
+        hostname: 'https://malikdirim.de',
         exclude: ['/legal', '/privacy', '/404']
       }
     ]
-  ],
-  /*
-   ** Build configuration
-   */
-  build: {
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {}
-  }
+  ]
 }
