@@ -103,9 +103,14 @@ export default {
       }
     ],
     /**
-     * EXPERIMENTAL: https://github.com/nuxt/image
+     * https://github.com/juliomrqz/nuxt-optimized-images
      */
-    '@nuxt/image'
+    [
+      '@aceforth/nuxt-optimized-images',
+      {
+        optimizeImagesInDev: true
+      }
+    ]
   ],
   modules: [
     /**

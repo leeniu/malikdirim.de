@@ -7,7 +7,7 @@
         Web-Developer
       </h2>
 
-      <ul class="w-full sm:w-1/2 grid grid-cols-4 gap-2">
+      <ul class="w-full md:w-1/2 grid grid-cols-4 sm:grid-cols-8 md:grid-cols-4 gap-2 md:gap-4">
         <li v-for="link in links" :key="link.alt">
           <a target="_blank" :href="link.href" :title="link.title" rel="noopener noreferrer">
             <component
@@ -27,14 +27,20 @@
     </section>
     <section class="w-full md:w-3/8 mb-8 md:mb-0 px-8 sm:px-12 md:px-16 lg:px-0 md:-mt-12">
       <Cat class="hidden xl:block" />
-      <nuxt-img
-        format="png"
-        quality="80"
-        fit="contain"
-        src="/img/cat.png"
-        alt="Image of a cute sleeping cat"
-        class="block xl:hidden mx-auto"
-      />
+      <picture class="hidden lg:block xl:hidden">
+        <source :srcSet="require('~/assets/img/cat.png?format=avif')" type="image/avif" />
+        <source :srcSet="require('~/assets/img/cat.png?format=webp')" type="image/webp" />
+        <img :src="require('~/assets/img/cat.png')" alt="Image of a cute sleeping cat" class="mx-auto" />
+      </picture>
+      <picture class="block lg:hidden">
+        <source :srcSet="require('~/assets/img/cat.png?format=avif&resize&size=300')" type="image/avif" />
+        <source :srcSet="require('~/assets/img/cat.png?format=webp&resize&size=300')" type="image/webp" />
+        <img
+          :src="require('~/assets/img/cat.png?resize&size=300')"
+          alt="Image of a cute sleeping cat"
+          class="mx-auto"
+        />
+      </picture>
     </section>
   </main>
 </template>
