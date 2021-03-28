@@ -1,9 +1,5 @@
-const meta = {
-  description: 'Web-Entwicklung, Tooling, DevOps, Security & Privacy',
-  title: 'Malik Dirim - Web Developer & IT Enthusiast',
-  site: 'Malik Dirim',
-  locale: 'de_DE'
-}
+const title = 'Malik Dirim - Web Developer & IT Enthusiast'
+const description = 'Ich mag (Front-End) Web-Entwicklung, DevOps & Tooling, Privacy & Security und alles rund um Tech.'
 
 export default {
   target: 'static',
@@ -11,51 +7,68 @@ export default {
     fallback: true
   },
   head: {
-    title: 'Home',
-    titleTemplate: '%s | Malik Dirim - Web Developer & IT Enthusiast',
+    titleTemplate: titleChunk => {
+      const title = 'Malik Dirim - Web Developer & IT Enthusiast'
+      return titleChunk ? `${titleChunk} | ${title}` : title
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
+        hid: 'description',
+        name: 'description',
+        content: description
+      },
+      {
         hid: 'og:description',
         name: 'og:description',
-        content: meta.description
+        content: description
       },
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Malik Dirim - Web Developer & IT Enthusiast'
+        content: title
       },
       {
         hid: 'og:site_name',
         name: 'og:site_name',
-        content: meta.site
+        content: 'Malik Dirim'
       },
       {
         hid: 'og:locale',
         name: 'og:locale',
-        content: meta.locale
+        content: 'de_DE'
       },
       {
-        hid: 'description',
-        name: 'description',
-        content: meta.description
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://malikdirim.de/screenshot.png'
       },
+      {
+        hid: 'og:image:secure_url',
+        property: 'og:image:secure_url',
+        content: 'https://malikdirim.de/screenshot.png'
+      },
+      {
+        hid: 'og:image:alt',
+        property: 'og:image:alt',
+        content: title
+      },
+
       {
         hid: 'apple-mobile-web-app-title',
         name: 'apple-mobile-web-app-title',
-        content: meta.title
+        content: title
       }
     ],
     htmlAttrs: {
-      lang: 'de_DE'
+      lang: 'de'
     },
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon-16x16.png', sizes: '16x16' },
       { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png', sizes: '32x32' },
       { rel: 'icon', type: 'image/png', href: '/favicon-96x96.png', sizes: '96x96' },
       { rel: 'apple-touch-icon', href: '/apple-icon.png', sizes: '76x76' },
-      { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
@@ -114,17 +127,13 @@ export default {
   ],
   modules: [
     /**
-     * https://github.com/nuxt-community/pwa-module
-     */
-    '@nuxtjs/pwa',
-    /**
      * https://github.com/nuxt-community/robots-module
      */
     [
       '@nuxtjs/robots',
       {
         UserAgent: '*',
-        Disallow: ['/legal', '/privacy'],
+        Disallow: ['/legal', '/privacy', '/404'],
         Sitemap: 'https://malikdirim.de/sitemap.xml'
       }
     ],
