@@ -1,23 +1,16 @@
 <template>
-  <BaseModal v-if="showing" @close="hide">
+  <Modal v-if="showing" @close="hide">
     <template #header>
       <h3 class="mb-3">Kontakt</h3>
     </template>
     <template #body>
       <ContactForm ref="form" @submit="onSubmit" />
     </template>
-  </BaseModal>
+  </Modal>
 </template>
 
 <script>
-import BaseModal from '@/components/base/BaseModal'
-import ContactForm from '@/components/ContactForm'
-
 export default {
-  components: {
-    BaseModal,
-    ContactForm
-  },
   data() {
     return {
       showing: false,

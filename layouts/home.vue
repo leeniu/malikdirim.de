@@ -8,17 +8,3 @@
     </div>
   </div>
 </template>
-
-<script>
-import Particles from '@/components/Particles'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-
-export default {
-  components: {
-    Footer,
-    Header,
-    Particles
-  }
-}
-</script>
