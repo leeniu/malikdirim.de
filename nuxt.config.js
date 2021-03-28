@@ -26,7 +26,7 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: '%s | Malik Dirim - Web Developer & IT Enthusiast'
+        content: 'Malik Dirim - Web Developer & IT Enthusiast'
       },
       {
         hid: 'og:site_name',
