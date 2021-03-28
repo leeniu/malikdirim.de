@@ -25,9 +25,13 @@
         </li>
       </ul>
     </section>
-    <section class="w-full md:w-3/8 p-12 md:p-0 md:-mt-12">
+    <section class="w-full md:w-3/8 p-8 md:p-0 md:-mt-12">
       <Cat class="hidden xl:block" />
-      <img src="/img/cat.png" alt="Image of a cute sleeping cat" class="block xl:hidden" />
+      <img
+        src="/img/cat.png"
+        alt="Image of a cute sleeping cat"
+        class="block xl:hidden w-full h-auto max-w-sm mx-auto"
+      />
     </section>
   </main>
 </template>
