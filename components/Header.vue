@@ -7,8 +7,10 @@
             <source :srcSet="require('~/assets/img/avatar.jpg?format=avif&resize&size=64')" type="image/avif" />
             <source :srcSet="require('~/assets/img/avatar.jpg?format=webp&resize&size=64')" type="image/webp" />
             <img
-              :src="require('~/assets/img/avatar.jpg?resize&size=64')"
+              width="32"
+              height="32"
               alt="Avatar von Malik Dirim"
+              :src="require('~/assets/img/avatar.jpg?resize&size=64')"
               class="inline-block mx-auto h-8 w-auto rounded-full text-white shadow-solid mr-3"
             />
           </picture>

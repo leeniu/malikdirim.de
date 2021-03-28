@@ -30,15 +30,23 @@
       <picture class="hidden lg:block xl:hidden">
         <source :srcSet="require('~/assets/img/cat.png?format=avif')" type="image/avif" />
         <source :srcSet="require('~/assets/img/cat.png?format=webp')" type="image/webp" />
-        <img :src="require('~/assets/img/cat.png')" alt="Image of a cute sleeping cat" class="mx-auto" />
+        <img
+          width="528"
+          height="512"
+          class="mx-auto"
+          alt="Image of a cute sleeping cat"
+          :src="require('~/assets/img/cat.png')"
+        />
       </picture>
       <picture class="block lg:hidden">
-        <source :srcSet="require('~/assets/img/cat.png?format=avif&resize&size=528')" type="image/avif" />
-        <source :srcSet="require('~/assets/img/cat.png?format=webp&resize&size=528')" type="image/webp" />
+        <source type="image/avif" :srcSet="require('~/assets/img/cat.png?format=avif&resize&size=528')" />
+        <source type="image/webp" :srcSet="require('~/assets/img/cat.png?format=webp&resize&size=528')" />
         <img
-          :src="require('~/assets/img/cat.png?resize&size=528')"
-          alt="Image of a cute sleeping cat"
+          width="528"
+          height="512"
           class="mx-auto"
+          alt="Image of a cute sleeping cat"
+          :src="require('~/assets/img/cat.png?resize&size=528')"
         />
       </picture>
     </section>
