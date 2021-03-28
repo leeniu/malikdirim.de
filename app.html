@@ -1,0 +1,16 @@
+<!-- https://nuxtjs.org/docs/2.x/concepts/views#document-apphtml -->
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+    {{ APP }}
+
+    <form hidden netlify method="POST" name="Contact" netlify-honeypot="bot-field">
+      <input type="text" name="name" placeholder="Name" />
+      <input required type="email" name="email" placeholder="E-Mail" />
+      <textarea rows="4" required name="message" placeholder="Message" />
+    </form>
+  </body>
+</html>
