@@ -14,7 +14,7 @@
       >
         <button
           type="button"
-          class="absolute top-0 right-0 m-4 p-2 h-8 w-8 flex justify-center rounded-lg items-center hover:bg-gray-100 hover:text-red-700 focus:bg-gray-100 focus:text-red-700"
+          class="absolute top-0 right-0 m-4 p-2 h-8 w-8 flex justify-center rounded-lg items-center text-gray-500 hover:bg-gray-100 hover:text-red-700 focus:bg-gray-100 focus:text-red-700"
           aria-label="Close modal"
           @click="close"
         >
