@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed z-50 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+  <div class="fixed z-40 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
     <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
       <div
         class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
@@ -37,6 +37,13 @@
 
 <script>
 export default {
+  mounted() {
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' || e.keyCode === 27) {
+        this.close()
+      }
+    })
+  },
   methods: {
     close() {
       this.$emit('close')
