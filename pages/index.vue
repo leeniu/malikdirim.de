@@ -1,6 +1,7 @@
 <script>
 export default {
-  layout: 'home',
+  name: 'Index',
+  layout: 'Home',
   data() {
     return {
       links: [
@@ -56,14 +57,29 @@ export default {
           job: 'Web-Entwickler'
         },
         addition: {
-          text: 'Mein {ego} {cappic} versucht derweil sein Bestes, der {openSourceCommunity} beizustehen, wo er kann.',
+          text:
+            'Mein {ego} {cappic} unternimmt derweil sein Möglichstes, seinen Beitrag in der {openSourceCommunity} zu leisten.',
           ego: 'Alter Ego',
           openSourceCommunity: 'Open-Source-Gemeinschaft'
         },
         catAltText: 'Bild einer schlafenden Katze in der Nacht, vollständig in CSS gemalt.'
       },
       en: {
-        heading: 'Full Stack Developer' // Not yet applied
+        heading: 'Full-Stack Developer',
+        salutation: {
+          text: '{greeting}, my name is {name}.',
+          greeting: 'Hey'
+        },
+        introduction: {
+          text: 'I currently work at {company} as a {job}.',
+          job: 'Web Developer'
+        },
+        addition: {
+          text: 'Meanwhile, my {ego} {cappic} is doing his utmost to contribute to the {openSourceCommunity}.',
+          ego: 'alter ego',
+          openSourceCommunity: 'open source community'
+        },
+        catAltText: 'Image of a sleeping cat at night, painted entirely in CSS.'
       }
     }
   }

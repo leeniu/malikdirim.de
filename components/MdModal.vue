@@ -18,6 +18,11 @@ export default {
         titel: 'Titel',
         body: 'Inhalt',
         close: 'Modal schließen'
+      },
+      en: {
+        titel: 'Title',
+        body: 'Body',
+        close: 'Close modal'
       }
     }
   }

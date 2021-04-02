@@ -43,6 +43,9 @@ export default {
     messages: {
       de: {
         heading: 'Kontakt'
+      },
+      en: {
+        heading: 'Contact'
       }
     }
   }

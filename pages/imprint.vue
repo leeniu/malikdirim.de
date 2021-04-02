@@ -10,7 +10,16 @@ export default {
     messages: {
       de: {
         title: 'Impressum'
+      },
+      en: {
+        title: 'Imprint'
       }
+    }
+  },
+  nuxtI18n: {
+    paths: {
+      de: '/impressum',
+      en: '/imprint'
     }
   }
 }

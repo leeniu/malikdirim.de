@@ -5,6 +5,10 @@ export default {
       de: {
         text: 'Die gesuchte Seite konnte leider nicht gefunden werden.',
         linkText: 'Zurück zur Startseite'
+      },
+      en: {
+        text: 'The page you are looking for could not be found.',
+        linkText: 'Back to the home page'
       }
     }
   }
