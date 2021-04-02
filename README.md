@@ -6,7 +6,7 @@ This is the personal homepage of Malik Dirim, web developer and it enthusiast. T
 
 ## Requirements
 
-- Node.js 14
+- Node.js 15
 - Yarn
 
 ## Status
@@ -31,3 +31,7 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Deployment
+
+Make sure you have the environment variables from the `.env.example` set in your build pipeline!

@@ -26,7 +26,7 @@ export default {
               class="inline-block mx-auto h-8 w-auto rounded-full text-white shadow-solid mr-3"
             />
           </picture>
-          <h1 class="font-light text-xl">{{ $config.appName }}</h1>
+          <h1 class="font-light text-xl">Malik Dirim</h1>
         </nuxt-link>
       </div>
     </nav>
