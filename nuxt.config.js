@@ -133,7 +133,7 @@ export default {
       '@nuxtjs/robots',
       {
         UserAgent: '*',
-        Disallow: ['/legal', '/privacy', '/404'],
+        Disallow: ['/imprint', '/privacy', '/404'],
         Sitemap: 'https://malikdirim.de/sitemap.xml'
       }
     ],
@@ -145,7 +145,25 @@ export default {
       {
         gzip: true,
         hostname: 'https://malikdirim.de',
-        exclude: ['/legal', '/privacy', '/404']
+        exclude: ['/imprint', '/privacy', '/404']
+      }
+    ],
+    /**
+     * https://i18n.nuxtjs.org/
+     */
+    [
+      'nuxt-i18n',
+      {
+        lazy: true, // Required to work with separate files like this
+        langDir: '~/lang/',
+        defaultLocale: 'de',
+        locales: [
+          {
+            code: 'de',
+            name: 'Deutsch',
+            file: 'de-DE.json'
+          }
+        ]
       }
     ]
   ]
