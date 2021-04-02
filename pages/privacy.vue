@@ -1,3 +1,24 @@
+<script>
+import contactData from '@/mixins/contactData'
+
+export default {
+  mixins: [contactData],
+  /* istanbul ignore next */
+  head() {
+    return {
+      title: this.$t('title')
+    }
+  },
+  i18n: {
+    messages: {
+      de: {
+        title: 'Datenschutz'
+      }
+    }
+  }
+}
+</script>
+
 <template>
   <main>
     <h1>Datenschutzerklärung</h1>
@@ -213,17 +234,3 @@
     </p>
   </main>
 </template>
-
-<script>
-import contactData from '@/mixins/contactData'
-
-export default {
-  mixins: [contactData],
-  /* istanbul ignore next */
-  head() {
-    return {
-      title: 'Datenschutz'
-    }
-  }
-}
-</script>
