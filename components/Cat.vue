@@ -57,31 +57,31 @@ $color-black: hsl(0, 0%, 26.3%);
 
 #cat-at-night {
   .layer-2 {
-    z-index: 20;
+    z-index: 2;
   }
 
   .layer-3 {
-    z-index: 30;
+    z-index: 3;
   }
 
   .layer-4 {
-    z-index: 40;
+    z-index: 4;
   }
 
   .layer-5 {
-    z-index: 50;
+    z-index: 5;
   }
 
   .layer-6 {
-    z-index: 60;
+    z-index: 6;
   }
 
   .layer-7 {
-    z-index: 70;
+    z-index: 7;
   }
 
   .layer-8 {
-    z-index: 80;
+    z-index: 8;
   }
 
   @keyframes blinking-star {
