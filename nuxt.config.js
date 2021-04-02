@@ -91,6 +91,10 @@ export default {
      */
     '@nuxtjs/eslint-module',
     /**
+     * https://github.com/juliomrqz/nuxt-optimized-images
+     */
+    '@aceforth/nuxt-optimized-images',
+    /**
      * https://github.com/nuxt-community/nuxt-tailwindcss
      */
     [
@@ -116,13 +120,16 @@ export default {
         }
       }
     ],
-    /**
-     * https://github.com/juliomrqz/nuxt-optimized-images
-     */
+    // https://github.com/nuxt-community/fontawesome-module#readme
     [
-      '@aceforth/nuxt-optimized-images',
+      '@nuxtjs/fontawesome',
       {
-        optimizeImagesInDev: true
+        component: 'fa',
+        addCss: false,
+        icons: {
+          solid: ['faTimes', 'faEnvelope', 'faPaperPlane', 'faHandSpock'],
+          brands: ['faGithub', 'faGitlab', 'faCodepen', 'faDocker', 'faTwitter', 'faXing']
+        }
       }
     ]
   ],
