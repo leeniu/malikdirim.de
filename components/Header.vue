@@ -1,3 +1,15 @@
+<script>
+export default {
+  i18n: {
+    messages: {
+      de: {
+        avatarAlt: 'Avatar von Malik Dirim'
+      }
+    }
+  }
+}
+</script>
+
 <template>
   <header class="py-4">
     <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start">
@@ -9,7 +21,7 @@
             <img
               width="32"
               height="32"
-              alt="Avatar von Malik Dirim"
+              :alt="$t('avatarAlt')"
               :src="require('~/assets/img/avatar.jpg?resize&size=64')"
               class="inline-block mx-auto h-8 w-auto rounded-full text-white shadow-solid mr-3"
             />

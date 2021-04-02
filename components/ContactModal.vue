@@ -1,14 +1,3 @@
-<template>
-  <Modal v-if="showing" @close="hide">
-    <template #header>
-      <h3 class="mb-3">Kontakt</h3>
-    </template>
-    <template #body>
-      <ContactForm ref="form" @submit="onSubmit" />
-    </template>
-  </Modal>
-</template>
-
 <script>
 export default {
   data() {
@@ -49,6 +38,24 @@ export default {
           this.loading = false
         })
     }
+  },
+  i18n: {
+    messages: {
+      de: {
+        heading: 'Kontakt'
+      }
+    }
   }
 }
 </script>
+
+<template>
+  <Modal v-if="showing" @close="hide">
+    <template #header>
+      <h3 class="mb-3">{{ $t('heading') }}</h3>
+    </template>
+    <template #body>
+      <ContactForm ref="form" @submit="onSubmit" />
+    </template>
+  </Modal>
+</template>
