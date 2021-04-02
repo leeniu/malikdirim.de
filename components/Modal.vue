@@ -40,11 +40,11 @@ export default {
       >
         <button
           type="button"
-          class="absolute top-0 right-0 m-4 p-2 h-8 w-8 flex justify-center rounded-lg items-center text-gray-500 hover:bg-gray-100 hover:text-red-700 focus:bg-gray-100 focus:text-red-700"
+          class="absolute top-0 right-0 m-3 p-3 rounded-lg text-gray-500 hover:bg-gray-100 hover:text-red-700 focus:bg-gray-100 focus:text-red-700"
           :aria-label="$t('close')"
           @click="close"
         >
-          <SVGCross />
+          <fa class="h-4" :icon="['fas', 'times']" />
         </button>
         <slot>
           <div class="px-6 py-8 sm:px-8 sm:py-10">

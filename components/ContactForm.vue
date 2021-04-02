@@ -82,9 +82,10 @@ export default {
     <div class="text-right">
       <button
         type="submit"
-        class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-lighter"
+        class="inline-flex justify-center items-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-lighter"
       >
-        {{ $t('send') }}
+        <span class="mr-2">{{ $t('send') }}</span
+        ><fa class="h-4" :icon="['fas', 'paper-plane']" />
       </button>
     </div>
   </form>

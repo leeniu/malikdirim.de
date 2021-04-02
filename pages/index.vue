@@ -6,58 +6,64 @@ export default {
       links: [
         {
           title: 'GitLab',
-          svg: 'SVGGitlab',
-          classes: 'hover:text-gitlab',
+          fa: ['fab', 'gitlab'],
+          hover: 'hover:text-gitlab',
           href: 'https://gitlab.com/m.dirim'
         },
         {
           title: 'Github',
-          svg: 'SVGGithub',
-          classes: 'hover:text-github',
+          fa: ['fab', 'github'],
+          hover: 'hover:text-github',
           href: 'https://github.com/leeniu'
         },
         {
-          title: 'CodePen',
-          svg: 'SVGCodepen',
-          classes: 'hover:text-codepen',
-          href: 'https://codepen.io/leeniu'
-        },
-        {
           title: 'Docker',
-          svg: 'SVGDocker',
-          classes: 'hover:text-docker',
+          fa: ['fab', 'docker'],
+          hover: 'hover:text-docker',
           href: 'https://hub.docker.com/u/malikdirim'
         },
         {
-          title: 'Flybytes',
-          svg: 'SVGFlybytes',
-          classes: 'hover:text-flybytes',
-          href: 'https://www.flybytes.de/team/malik-dirim'
+          title: 'CodePen',
+          fa: ['fab', 'codepen'],
+          hover: 'hover:text-codepen',
+          href: 'https://codepen.io/leeniu'
         },
         {
           title: 'Twitter',
-          svg: 'SVGTwitter',
-          classes: 'hover:text-twitter',
+          fa: ['fab', 'twitter'],
+          hover: 'hover:text-twitter',
           href: 'https://twitter.com/malikdirim'
         },
         {
           title: 'XING',
-          svg: 'SVGXing',
-          classes: 'hover:text-xing',
+          fa: ['fab', 'xing'],
+          hover: 'hover:text-xing',
           href: 'https://www.xing.com/profile/Malik_Dirim/'
         }
       ]
     }
   },
-  methods: {
-    onShowModal() {
-      this.$refs.contactModal.show()
-    }
-  },
   i18n: {
     messages: {
       de: {
-        title: 'Datenschutz'
+        heading: 'Full-Stack-Entwickler',
+        salutation: {
+          text: '{greeting}, mein Name ist {name}.',
+          greeting: 'Hallo'
+        },
+        introduction: {
+          text: 'Ich arbeite dieser Tage für {company} als {job}.',
+          job: 'Web-Entwickler'
+        },
+        addition: {
+          text: 'Mein {ego} {cappic} versucht derweil sein Bestes, der {openSourceCommunity} beizustehen, wo er kann.',
+          ego: 'Alter Ego',
+          openSourceCommunity: 'Open-Source-Gemeinschaft'
+        },
+        catAltText: 'Bild einer schlafenden Katze in der Nacht, vollständig in CSS gemalt.'
+      },
+      en: {
+        heading: 'Full Stack Developer' // Not yet applied
       }
     }
   }
@@ -68,53 +74,100 @@ export default {
   <main class="flex flex-1 flex-col md:flex-row md:justify-center md:items-center pt-10 md:pt-0">
     <section class="w-full md:w-5/8 mb-8 md:mb-0">
       <h2
-        class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 sm:mb-8 md:mb-12 sm:tracking-wider font-light sm:font-extralight transition duration-500"
+        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 sm:mb-6 md:mb-8 lg:mb-10 sm:tracking-wider font-light sm:font-extralight"
       >
-        Web-Developer
+        {{ $t('heading') }}
       </h2>
 
-      <ul class="w-full md:w-1/2 grid grid-cols-4 sm:grid-cols-8 md:grid-cols-4 gap-2 md:gap-4">
+      <ul class="w-full md:w-1/2 flex space-x-6 sm:space-x-8 md:space-x-10 lg:space-x-12 mb-8 sm:mb-10 md:mb-12">
         <li v-for="link in links" :key="link.alt">
-          <a target="_blank" :href="link.href" :title="link.title" rel="noopener noreferrer">
-            <component
-              :is="link.svg"
-              :class="[link.classes]"
-              class="p-2 w-auto h-10 sm:h-10 lg:h-12 xl:h-16 transition duration-200 fill-current"
-            ></component>
+          <a :href="link.href" :title="link.title" target="_blank" rel="noopener noreferrer">
+            <fa
+              :icon="link.fa"
+              :class="[link.hover]"
+              class="h-6 w-auto sm:h-8 md:h-10 lg:h-12 transform hover:scale-105 transition duration-100"
+            />
           </a>
-        </li>
-        <li key="contact">
-          <a href="#" title="Kontaktformular" @click.prevent="onShowModal">
-            <SVGEmail class="p-2 w-auto h-10 sm:h-10 lg:h-12 xl:h-16 fill-current hover:text-email" />
-          </a>
-          <ContactModal ref="contactModal" />
         </li>
       </ul>
+
+      <p class="leading-relaxed md:leading-loose tracking-wide md:text-lg">
+        <i18n path="salutation.text">
+          <template #greeting
+            >{{ $t('salutation.greeting') }} <fa class="inline h-4" :icon="['fas', 'hand-spock']"
+          /></template>
+          <template #name><span class="font-bold">Malik Dirim</span></template>
+        </i18n>
+        <br />
+        <i18n path="introduction.text">
+          <template #company>
+            <a
+              target="_blank"
+              title="Flybytes"
+              class="italic underline"
+              rel="noopener noreferrer"
+              href="https://www.flybytes.de/team/malik-dirim"
+            >
+              Flybytes
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" class="fill-current inline h-4">
+                <polygon
+                  points="121.52 285.55 399.96 11.77 332.49 11.6 88.63 251.37 72.2 234.3 298.5 11.77 230.86 11.77 5.5 233.38 196.92 432.29 230.74 399.04 121.52 285.55"
+                />
+                <path
+                  d="M393.83,234.89v-2.74c51.14-18.6,85-54.8,85.11-110.09.1-44.59-19.58-77.06-55.42-100.21L389.39,55.42C416.15,72.7,431.3,92.55,431.3,122c0,41.82-34.43,87-124.18,110.06v2.75C396.87,255.6,452.4,297.6,447.71,359.55c-4.54,60-65.52,82.14-105.15,82.14l-2.52,0c-26.17,0-64.64-6.92-92.84-25.57L213.38,449.4c32.76,25.79,76.33,40,126.66,40l3.18,0c74.56-1,152.38-46.22,152.38-133.39C495.6,289.15,454.13,252,393.83,234.89Z"
+                />
+              </svg>
+            </a>
+          </template>
+          <template #job>
+            <span class="font-bold">{{ $t('introduction.job') }}</span>
+          </template>
+        </i18n>
+        <br />
+        <i18n path="addition.text">
+          <template #ego>
+            <span class="font-bold">{{ $t('addition.ego') }}</span>
+          </template>
+          <template #cappic>
+            <span class="italic">
+              <a
+                target="_blank"
+                class="italic underline"
+                title="Cappic90 GitHub"
+                rel="noopener noreferrer"
+                href="https://github.com/cappic90"
+              >
+                Cappic90
+                <fa class="inline h-4" :icon="['fab', 'github']" />
+              </a>
+            </span>
+          </template>
+          <template #openSourceCommunity>
+            <span class="font-bold">{{ $t('addition.openSourceCommunity') }}</span>
+          </template>
+        </i18n>
+      </p>
     </section>
+
     <section class="w-full md:w-3/8 mb-8 md:mb-0 px-8 sm:px-12 md:px-16 lg:px-0 md:-mt-12">
-      <Cat class="hidden xl:block" />
-      <picture class="hidden lg:block xl:hidden">
-        <source :srcSet="require('~/assets/img/cat.png?format=avif')" type="image/avif" />
-        <source :srcSet="require('~/assets/img/cat.png?format=webp')" type="image/webp" />
-        <img
-          width="528"
-          height="512"
-          class="mx-auto"
-          alt="Image of a cute sleeping cat"
-          :src="require('~/assets/img/cat.png')"
-        />
-      </picture>
-      <picture class="block lg:hidden">
-        <source type="image/avif" :srcSet="require('~/assets/img/cat.png?format=avif&resize&size=528')" />
-        <source type="image/webp" :srcSet="require('~/assets/img/cat.png?format=webp&resize&size=528')" />
-        <img
-          width="528"
-          height="512"
-          class="mx-auto"
-          alt="Image of a cute sleeping cat"
-          :src="require('~/assets/img/cat.png?resize&size=528')"
-        />
-      </picture>
+      <div class="flex justify-center">
+        <cat class="hidden xl:block" />
+        <picture class="hidden lg:block xl:hidden">
+          <source :srcSet="require('~/assets/img/cat.png?format=avif')" type="image/avif" />
+          <source :srcSet="require('~/assets/img/cat.png?format=webp')" type="image/webp" />
+          <img width="528" height="510" :alt="$t('catAltText')" :src="require('~/assets/img/cat.png')" />
+        </picture>
+        <picture class="block lg:hidden">
+          <source type="image/avif" :srcSet="require('~/assets/img/cat.png?format=avif&resize&size=528')" />
+          <source type="image/webp" :srcSet="require('~/assets/img/cat.png?format=webp&resize&size=528')" />
+          <img
+            width="528"
+            height="512"
+            :alt="$t('catAltText')"
+            :src="require('~/assets/img/cat.png?resize&size=528')"
+          />
+        </picture>
+      </div>
     </section>
   </main>
 </template>

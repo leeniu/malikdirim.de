@@ -4,10 +4,6 @@ export default {
     return {
       links: [
         {
-          title: 'home',
-          name: 'index'
-        },
-        {
           title: 'imprint',
           name: 'imprint'
         },
@@ -18,10 +14,16 @@ export default {
       ]
     }
   },
+  methods: {
+    onShowModal() {
+      this.$refs.contactModal.show()
+    }
+  },
   i18n: {
     messages: {
       de: {
         home: 'Home',
+        contact: 'Kontakt',
         imprint: 'Impressum',
         privacy: 'Datenschutz'
       }
@@ -34,7 +36,13 @@ export default {
   <footer class="py-4">
     <nav>
       <ul class="flex flex-col sm:flex-row items-end justify-end">
-        <li v-for="(link, index) in links" :key="index" class="mb-3 mr-6">
+        <li class="mb-4 mr-8">
+          <a href="#" title="Kontaktformular" @click.prevent="onShowModal">
+            {{ $t('contact') }}
+          </a>
+          <contact-modal ref="contactModal" />
+        </li>
+        <li v-for="(link, index) in links" :key="index" class="mb-4 mr-8">
           <nuxt-link :to="localePath({ name: link.name })">{{ $t(link.title) }}</nuxt-link>
         </li>
       </ul>
