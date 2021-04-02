@@ -40,7 +40,8 @@ module.exports = {
     fontFamily: {
       sans: ['Manrope', 'sans-serif'],
       serif: ['serif'],
-      mono: ['monospace']
+      mono: ['monospace'],
+      headings: ['Inter', 'sans-serif']
     }
   },
   variants: {},

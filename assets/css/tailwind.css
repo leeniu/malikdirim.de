@@ -15,12 +15,16 @@
     @apply  bg-gray-100 text-gray-800;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headings;
+  }
+
   h1 {
-    @apply text-3xl py-3 font-semibold;
+    @apply text-3xl py-3 font-black;
   }
 
   h2 {
-    @apply text-2xl py-2 font-normal;
+    @apply text-2xl py-2 font-extrabold;
   }
 
   h3 {

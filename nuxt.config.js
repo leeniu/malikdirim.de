@@ -74,7 +74,7 @@ export default {
     ]
   },
   loading: { color: '#0F766E' },
-  css: ['./assets/css/manrope.css'],
+  css: ['./assets/css/manrope.css', './assets/css/inter.css'],
   /**
    * https://github.com/nuxt/components
    */
