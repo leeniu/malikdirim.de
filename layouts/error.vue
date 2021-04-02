@@ -24,7 +24,7 @@ export default {
 
 <template>
   <div class="flex flex-col justify-center items-center">
-    <NotFound v-if="statusCode === 404" />
+    <md-not-found v-if="statusCode === 404" />
     <div v-else>
       <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="#DBE1EC" viewBox="0 0 48 48">
         <path
