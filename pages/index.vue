@@ -98,7 +98,7 @@ export default {
         <source :srcSet="require('~/assets/img/cat.png?format=webp')" type="image/webp" />
         <img
           width="528"
-          height="512"
+          height="510"
           class="mx-auto"
           alt="Image of a cute sleeping cat"
           :src="require('~/assets/img/cat.png')"
