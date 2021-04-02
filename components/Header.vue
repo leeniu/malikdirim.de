@@ -14,7 +14,7 @@ export default {
   <header class="py-4">
     <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start">
       <div class="block pr-4">
-        <nuxt-link to="/" class="flex flex-row items-center">
+        <nuxt-link :to="localePath({ name: 'index' })" class="flex flex-row items-center">
           <picture>
             <source :srcSet="require('~/assets/img/avatar.jpg?format=avif&resize&size=64')" type="image/avif" />
             <source :srcSet="require('~/assets/img/avatar.jpg?format=webp&resize&size=64')" type="image/webp" />
