@@ -26,6 +26,12 @@ export default {
         contact: 'Kontakt',
         imprint: 'Impressum',
         privacy: 'Datenschutz'
+      },
+      en: {
+        home: 'Home',
+        contact: 'Contact',
+        imprint: 'Imprint',
+        privacy: 'Privacy'
       }
     }
   }

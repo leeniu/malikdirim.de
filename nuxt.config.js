@@ -99,109 +99,104 @@ export default {
    */
   components: ['~/components/'],
   plugins: [
+    /**
+     * https://github.com/creotip/vue-particles
+     */
     {
       src: '~/plugins/vue-particles',
       mode: 'client'
-    }
+    },
+    /**
+     * https://github.com/P3trur0/vue-country-flag/
+     */
+    { src: '@/plugins/vue-country-flags.js' }
   ],
   buildModules: [
-    /**
-     * https://github.com/nuxt-community/eslint-module
-     */
     '@nuxtjs/eslint-module',
-    /**
-     * https://github.com/juliomrqz/nuxt-optimized-images
-     */
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/fontawesome',
     '@aceforth/nuxt-optimized-images',
-    /**
-     * https://github.com/nuxt-community/nuxt-tailwindcss
-     */
-    [
-      '@nuxtjs/tailwindcss',
-      {
-        configPath: '~/tailwind.config.js',
-        cssPath: '~/assets/css/tailwind.css'
-      }
-    ],
-    /**
-     * https://github.com/robcresswell/nuxt-compress
-     */
-    [
-      'nuxt-compress',
-      {
-        gzip: {
-          cache: true
-        },
-        brotli: {
-          mode: 1,
-          quality: 10,
-          threshold: 10240
-        }
-      }
-    ],
-    // https://github.com/nuxt-community/fontawesome-module#readme
-    [
-      '@nuxtjs/fontawesome',
-      {
-        component: 'fa',
-        addCss: false,
-        icons: {
-          solid: ['faTimes', 'faEnvelope', 'faPaperPlane', 'faHandSpock'],
-          brands: ['faGithub', 'faGitlab', 'faCodepen', 'faDocker', 'faTwitter', 'faXing']
-        }
-      }
-    ]
+    'nuxt-compress'
   ],
-  modules: [
-    /**
-     * https://github.com/nuxt-community/robots-module
-     */
-    [
-      '@nuxtjs/robots',
+  modules: ['@nuxtjs/robots', '@nuxtjs/sitemap', 'nuxt-i18n'],
+  /**
+   * https://github.com/nuxt-community/eslint-module
+   */
+  eslint: {
+    fix: true
+  },
+  /**
+   * https://github.com/juliomrqz/nuxt-optimized-images
+   */
+  optimizedImages: {
+    optimizeImages: true
+  },
+  /**
+   * https://github.com/nuxt-community/nuxt-tailwindcss
+   */
+  tailwindcss: {
+    jit: true,
+    configPath: '~/tailwind.config.js',
+    cssPath: '~/assets/css/tailwind.css'
+  },
+  /**
+   * https://github.com/robcresswell/nuxt-compress
+   */
+  'nuxt-compress': {
+    gzip: {
+      cache: true
+    },
+    brotli: {
+      mode: 1,
+      quality: 10,
+      threshold: 10240
+    }
+  },
+  /**
+   * https://github.com/nuxt-community/fontawesome-module#readme
+   */
+  fontawesome: {
+    component: 'fa',
+    addCss: false,
+    icons: {
+      solid: ['faTimes', 'faEnvelope', 'faPaperPlane', 'faHandSpock'],
+      brands: ['faGithub', 'faGitlab', 'faCodepen', 'faDocker', 'faTwitter', 'faXing']
+    }
+  },
+  /**
+   * https://github.com/nuxt-community/robots-module
+   */
+  robots: {
+    UserAgent: '*',
+    Disallow: ['/impressum', '/datenschutz', '/404'],
+    Sitemap: 'https://malikdirim.de/sitemap.xml'
+  },
+  /**
+   * https://github.com/nuxt-community/sitemap-module
+   */
+  sitemap: {
+    gzip: true,
+    hostname: 'https://malikdirim.de',
+    exclude: ['/impressum', '/datenschutz', '/404']
+  },
+  /**
+   * https://i18n.nuxtjs.org/
+   */
+  i18n: {
+    defaultLocale: 'de',
+    locales: [
       {
-        UserAgent: '*',
-        Disallow: ['/impressum', '/datenschutz', '/404'],
-        Sitemap: 'https://malikdirim.de/sitemap.xml'
-      }
-    ],
-    /**
-     * https://github.com/nuxt-community/sitemap-module
-     */
-    [
-      '@nuxtjs/sitemap',
+        iso: 'de',
+        code: 'de',
+        flag: 'deu',
+        name: 'Deutsch'
+      },
       {
-        gzip: true,
-        hostname: 'https://malikdirim.de',
-        exclude: ['/impressum', '/datenschutz', '/404']
-      }
-    ],
-    /**
-     * https://i18n.nuxtjs.org/
-     */
-    [
-      'nuxt-i18n',
-      {
-        lazy: true, // Required to work with separate files like this
-        langDir: '~/lang/',
-        defaultLocale: 'de',
-        locales: [
-          {
-            code: 'de',
-            iso: 'de-DE',
-            name: 'Deutsch',
-            file: 'de-DE.json'
-          }
-        ],
-        parsePages: false,
-        pages: {
-          imprint: {
-            de: '/impressum'
-          },
-          privacy: {
-            de: '/datenschutz'
-          }
-        }
+        iso: 'en',
+        code: 'en',
+        flag: 'gbr',
+        name: 'English'
       }
     ]
-  ]
+  }
 }

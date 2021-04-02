@@ -9,8 +9,17 @@ export default {
   i18n: {
     messages: {
       de: {
-        title: 'Datenschutz'
+        title: 'Datenschutzerklärung'
+      },
+      en: {
+        title: 'Privacy Policy'
       }
+    }
+  },
+  nuxtI18n: {
+    paths: {
+      de: '/datenschutzerklaerung',
+      en: '/privacy-policy'
     }
   }
 }

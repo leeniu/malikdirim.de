@@ -38,6 +38,17 @@ export default {
         privacySideNote:
           'Sie können diese Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns.',
         send: 'Absenden'
+      },
+      en: {
+        name: 'Name',
+        email: 'Email',
+        message: 'Message',
+        privacyCheckbox:
+          'Yes, I have read the {privacy-link} and agree that the data I have provided may be collected and stored electronically. My data will only be used strictly for the purpose of processing and answering my enquiry. By sending the contact form, I agree to the processing. After completion of the processing, the collected data will be deleted. {side-note}',
+        privacyPolicy: 'privacy policy',
+        privacySideNote:
+          'You can revoke this consent at any time. An informal message by e-mail to us is sufficient for this purpose.',
+        send: 'Send'
       }
     }
   }
