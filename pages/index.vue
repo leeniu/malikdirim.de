@@ -166,7 +166,7 @@ export default {
           <source type="image/webp" :srcSet="require('~/assets/img/cat.png?format=webp&resize&size=528')" />
           <img
             width="528"
-            height="512"
+            height="510"
             :alt="$t('catAltText')"
             :src="require('~/assets/img/cat.png?resize&size=528')"
           />
