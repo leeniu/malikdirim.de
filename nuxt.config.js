@@ -7,6 +7,25 @@ export default {
   generate: {
     fallback: true
   },
+  /**
+   * Copy .env.example to .env and fill in the values there
+   * https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-env
+   * https://nuxtjs.org/blog/moving-from-nuxtjs-dotenv-to-runtime-config/
+   */
+  publicRuntimeConfig: {
+    appName: process.env.APP_NAME,
+    address: {
+      name: process.env.ADDRESS_NAME,
+      street: process.env.ADDRESS_STREET,
+      city: process.env.ADDRESS_CITY,
+      country: process.env.ADDRESS_COUNTRY
+    },
+    emails: {
+      imprint: process.env.EMAIL_IMPRINT,
+      privacy: process.env.EMAIL_PRIVACY
+    }
+  },
+  privateRuntimeConfig: {},
   head: {
     titleTemplate: titleChunk => {
       const title = 'Malik Dirim - Web Developer & IT Enthusiast'
