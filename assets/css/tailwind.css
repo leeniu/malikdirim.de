@@ -4,6 +4,12 @@
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
 
+@layer utilities {
+  .text-gradient-primary {
+    @apply bg-clip-text text-transparent bg-gradient-to-l from-green-400 to-blue-500;
+  }
+}
+
 @layer base {
   body {
     @apply  bg-gray-100 text-gray-800;
