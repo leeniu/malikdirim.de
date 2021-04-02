@@ -1,8 +1,5 @@
 <script>
-import contactData from '@/mixins/contactData'
-
 export default {
-  mixins: [contactData],
   /* istanbul ignore next */
   head() {
     return {
@@ -24,12 +21,13 @@ export default {
     <h1>Impressum</h1>
     <h2>Angaben gemäß § 5 TMG</h2>
     <p>
-      {{ contact.name }}<br />
-      {{ contact.street }}<br />
-      {{ contact.city }}
+      {{ $config.address.name }}<br />
+      {{ $config.address.street }}<br />
+      {{ $config.address.city }}<br />
+      {{ $config.address.country }}<br />
     </p>
     <h2>Kontakt</h2>
-    <p>E-Mail: {{ contact.email.legal }}</p>
+    <p>E-Mail: {{ $config.emails.imprint }}</p>
     <h3>Haftung für Inhalte</h3>
     <p>
       Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen

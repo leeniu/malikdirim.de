@@ -50,12 +50,12 @@ export default {
 </script>
 
 <template>
-  <Modal v-if="showing" @close="hide">
+  <md-modal v-if="showing" @close="hide">
     <template #header>
       <h3 class="mb-3">{{ $t('heading') }}</h3>
     </template>
     <template #body>
-      <ContactForm ref="form" @submit="onSubmit" />
+      <md-contact-form ref="form" @submit="onSubmit" />
     </template>
-  </Modal>
+  </md-modal>
 </template>

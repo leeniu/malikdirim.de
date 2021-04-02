@@ -155,7 +155,7 @@ export default {
 
     <section class="w-full md:w-3/8 mb-8 md:mb-0 px-8 sm:px-12 md:px-16 lg:px-0 md:-mt-12">
       <div class="flex justify-center">
-        <cat class="hidden xl:block" />
+        <md-cat class="hidden xl:block" />
         <picture class="hidden lg:block xl:hidden">
           <source :srcSet="require('~/assets/img/cat.png?format=avif')" type="image/avif" />
           <source :srcSet="require('~/assets/img/cat.png?format=webp')" type="image/webp" />

@@ -40,7 +40,7 @@ export default {
           <a href="#" title="Kontaktformular" @click.prevent="onShowModal">
             {{ $t('contact') }}
           </a>
-          <contact-modal ref="contactModal" />
+          <md-contact-modal ref="contactModal" />
         </li>
         <li v-for="(link, index) in links" :key="index" class="mb-4 mr-8">
           <nuxt-link :to="localePath({ name: link.name })">{{ $t(link.title) }}</nuxt-link>

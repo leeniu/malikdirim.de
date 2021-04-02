@@ -1,8 +1,5 @@
 <script>
-import contactData from '@/mixins/contactData'
-
 export default {
-  mixins: [contactData],
   /* istanbul ignore next */
   head() {
     return {
@@ -85,11 +82,12 @@ export default {
     <h3>Hinweis zur verantwortlichen Stelle</h3>
     <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
     <p>
-      {{ contact.name }}<br />
-      {{ contact.street }}<br />
-      {{ contact.city }}
+      {{ $config.address.name }}<br />
+      {{ $config.address.street }}<br />
+      {{ $config.address.city }}<br />
+      {{ $config.address.country }}<br />
     </p>
-    <p>E-Mail: {{ contact.email.privacy }}</p>
+    <p>E-Mail: {{ $config.emails.privacy }}</p>
     <p>
       Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die
       Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
