@@ -74,7 +74,7 @@ export default {
   <main class="flex flex-1 flex-col md:flex-row md:justify-center md:items-center pt-10 md:pt-0">
     <section class="w-full md:w-5/8 mb-8 md:mb-0">
       <h2
-        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 sm:mb-6 md:mb-8 lg:mb-10 sm:tracking-wider font-light sm:font-extralight"
+        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 sm:mb-6 md:mb-8 lg:mb-10 sm:tracking-wider font-light text-gradient-primary animate-gradient-x"
       >
         {{ $t('heading') }}
       </h2>
