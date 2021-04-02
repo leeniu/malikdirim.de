@@ -1,3 +1,4 @@
+/* eslint-disable sonarjs/no-duplicate-string */
 const title = 'Malik Dirim - Web Developer & IT Enthusiast'
 const description = 'Ich mag (Front-End) Web-Entwicklung, DevOps & Tooling, Privacy & Security und alles rund um Tech.'
 
@@ -133,7 +134,7 @@ export default {
       '@nuxtjs/robots',
       {
         UserAgent: '*',
-        Disallow: ['/imprint', '/privacy', '/404'],
+        Disallow: ['/impressum', '/datenschutz', '/404'],
         Sitemap: 'https://malikdirim.de/sitemap.xml'
       }
     ],
@@ -145,7 +146,7 @@ export default {
       {
         gzip: true,
         hostname: 'https://malikdirim.de',
-        exclude: ['/imprint', '/privacy', '/404']
+        exclude: ['/impressum', '/datenschutz', '/404']
       }
     ],
     /**
@@ -160,10 +161,20 @@ export default {
         locales: [
           {
             code: 'de',
+            iso: 'de-DE',
             name: 'Deutsch',
             file: 'de-DE.json'
           }
-        ]
+        ],
+        parsePages: false,
+        pages: {
+          imprint: {
+            de: '/impressum'
+          },
+          privacy: {
+            de: '/datenschutz'
+          }
+        }
       }
     ]
   ]
