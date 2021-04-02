@@ -79,7 +79,7 @@ export default {
         {{ $t('heading') }}
       </h2>
 
-      <ul class="w-full md:w-1/2 flex space-x-6 sm:space-x-8 md:space-x-10 lg:space-x-12 mb-8 sm:mb-10 md:mb-12">
+      <ul class="flex space-x-6 sm:space-x-8 md:space-x-10 lg:space-x-12 mb-8 sm:mb-10 md:mb-12">
         <li v-for="link in links" :key="link.alt">
           <a :href="link.href" :title="link.title" target="_blank" rel="noopener noreferrer">
             <fa
@@ -91,12 +91,12 @@ export default {
         </li>
       </ul>
 
-      <p class="leading-relaxed md:leading-loose tracking-wide md:text-lg">
+      <p class="leading-relaxed md:leading-loose tracking-wide md:text-lg text-gray-500">
         <i18n path="salutation.text">
-          <template #greeting
-            >{{ $t('salutation.greeting') }} <fa class="inline h-4" :icon="['fas', 'hand-spock']"
-          /></template>
-          <template #name><span class="font-bold">Malik Dirim</span></template>
+          <template #greeting>
+            {{ $t('salutation.greeting') }} <fa class="inline h-4 text-gray-800" :icon="['fas', 'hand-spock']" />
+          </template>
+          <template #name><span class="font-bold text-gray-800">Malik Dirim</span></template>
         </i18n>
         <br />
         <i18n path="introduction.text">
@@ -109,7 +109,11 @@ export default {
               href="https://www.flybytes.de/team/malik-dirim"
             >
               Flybytes
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" class="fill-current inline h-4">
+              <svg
+                viewBox="0 0 500 500"
+                xmlns="http://www.w3.org/2000/svg"
+                class="fill-current inline h-4 text-gray-800"
+              >
                 <polygon
                   points="121.52 285.55 399.96 11.77 332.49 11.6 88.63 251.37 72.2 234.3 298.5 11.77 230.86 11.77 5.5 233.38 196.92 432.29 230.74 399.04 121.52 285.55"
                 />
@@ -120,13 +124,13 @@ export default {
             </a>
           </template>
           <template #job>
-            <span class="font-bold">{{ $t('introduction.job') }}</span>
+            <span class="font-bold text-gray-800">{{ $t('introduction.job') }}</span>
           </template>
         </i18n>
         <br />
         <i18n path="addition.text">
           <template #ego>
-            <span class="font-bold">{{ $t('addition.ego') }}</span>
+            <span class="font-bold text-gray-800">{{ $t('addition.ego') }}</span>
           </template>
           <template #cappic>
             <span class="italic">
@@ -138,12 +142,12 @@ export default {
                 href="https://github.com/cappic90"
               >
                 Cappic90
-                <fa class="inline h-4" :icon="['fab', 'github']" />
+                <fa class="inline h-4 text-gray-800" :icon="['fab', 'github']" />
               </a>
             </span>
           </template>
           <template #openSourceCommunity>
-            <span class="font-bold">{{ $t('addition.openSourceCommunity') }}</span>
+            <span class="font-bold text-gray-800">{{ $t('addition.openSourceCommunity') }}</span>
           </template>
         </i18n>
       </p>
