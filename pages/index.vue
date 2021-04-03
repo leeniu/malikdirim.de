@@ -107,7 +107,7 @@ export default {
         </li>
       </ul>
 
-      <p class="leading-relaxed md:leading-loose tracking-wide md:text-lg text-gray-500">
+      <p class="leading-relaxed md:leading-loose tracking-wide md:text-lg text-gray-600">
         <i18n path="salutation.text">
           <template #greeting>
             {{ $t('salutation.greeting') }} <fa class="inline h-4 text-gray-800" :icon="['fas', 'hand-spock']" />
