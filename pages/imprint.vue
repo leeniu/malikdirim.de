@@ -77,6 +77,15 @@ export default {
       Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
     </p>
     <p>
+      Die Bild-Darstellungen der Flaggen im Zusammenhang mit der Funktion des Umschaltens der Sprache stammen von
+      <a target="_blank" title="Roundicons" rel="noopener noreferrer" href="https://www.flaticon.com/authors/roundicons"
+        >Roundicons</a
+      >, gefunden bei
+      <a target="_blank" title="Flaticon" rel="noopener noreferrer" href="https://www.flaticon.com/"
+        >www.flaticon.com</a
+      >
+    </p>
+    <p>
       Quelle:
       <a href="https://www.e-recht24.de" target="_blank" rel="noopener noreferrer">eRecht24</a>
     </p>
