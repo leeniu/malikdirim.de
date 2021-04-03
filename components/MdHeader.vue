@@ -1,4 +1,5 @@
 <script>
+/* eslint-disable vue/no-v-html */
 export default {
   computed: {
     availableLocales() {
@@ -8,12 +9,10 @@ export default {
   i18n: {
     messages: {
       de: {
-        avatarAlt: 'Avatar von Malik Dirim',
-        changeLanguage: 'Sprache ändern zu'
+        avatarAlt: 'Avatar von Malik Dirim'
       },
       en: {
-        avatarAlt: 'Avatar of Malik Dirim',
-        changeLanguage: 'Change language ändern'
+        avatarAlt: 'Avatar of Malik Dirim'
       }
     }
   }
@@ -41,9 +40,12 @@ export default {
       </div>
       <ul class="flex space-x-4">
         <li v-for="locale in availableLocales" :key="locale.code">
-          <nuxt-link :to="switchLocalePath(locale.code)" :title="`${$t('changeLanguage')} ${locale.name}`">
+          <nuxt-link :to="switchLocalePath(locale.code)">
             <span class="sr-only">{{ locale.name }}</span>
-            <country-flag :country="locale.flag" class="h-3 transition transform hover:opacity-75 duration-200" />
+            <span
+              class="inline-block h-6 w-6 transform transition hover:scale-110 duration-150"
+              v-html="require(`~/assets/img/flags/${locale.flag}.svg?include`)"
+            ></span>
           </nuxt-link>
         </li>
       </ul>

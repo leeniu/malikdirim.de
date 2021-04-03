@@ -105,11 +105,7 @@ export default {
     {
       src: '~/plugins/vue-particles',
       mode: 'client'
-    },
-    /**
-     * https://github.com/P3trur0/vue-country-flag/
-     */
-    { src: '@/plugins/vue-country-flags.js' }
+    }
   ],
   buildModules: [
     '@nuxtjs/eslint-module',
@@ -126,7 +122,8 @@ export default {
     fix: true
   },
   /**
-   * https://github.com/juliomrqz/nuxt-optimized-images
+   * Repo: https://github.com/juliomrqz/nuxt-optimized-images
+   * Docs: https://marquez.co/docs/nuxt-optimized-images
    */
   optimizedImages: {
     optimizeImages: true
@@ -187,13 +184,13 @@ export default {
       {
         iso: 'de',
         code: 'de',
-        flag: 'deu',
+        flag: 'germany',
         name: 'Deutsch'
       },
       {
         iso: 'en',
         code: 'en',
-        flag: 'gbr',
+        flag: 'united-states-of-america',
         name: 'English'
       }
     ]

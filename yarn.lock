@@ -14870,11 +14870,6 @@ vue-client-only@^2.0.0:
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
 
-vue-country-flag@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/vue-country-flag/-/vue-country-flag-2.0.3.tgz#f644d8f5150a97f473f0c13e04622c6ede37d1de"
-  integrity sha512-QZM3hNNhnGU+G1qnpq1BiICE4Zh91UA++/UpM0go8XbxkVxTiPy4asWY07vL/3PtW8M69YqWVbhwG13rzvNwkA==
-
 vue-eslint-parser@^7.1.1, vue-eslint-parser@^7.6.0:
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.6.0.tgz#01ea1a2932f581ff244336565d712801f8f72561"
