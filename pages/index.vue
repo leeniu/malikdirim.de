@@ -1,7 +1,6 @@
 <script>
 export default {
   name: 'Index',
-  layout: 'Home',
   data() {
     return {
       links: [
@@ -88,6 +87,7 @@ export default {
 
 <template>
   <main class="flex flex-1 flex-col lg:flex-row lg:justify-center lg:items-center pt-10 lg:pt-0">
+    <md-particles class="absolute -z-10 h-full min-h-screen w-screen" />
     <section class="w-full lg:w-5/8 mb-8 lg:mb-0">
       <h2
         class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 sm:mb-6 md:mb-8 lg:mb-10 sm:tracking-wider text-gradient-primary animate-gradient-x"
