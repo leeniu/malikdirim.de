@@ -53,5 +53,8 @@ export default {
         </li>
       </ul>
     </nav>
+    <div class="py-2 flex justify-center text-gray-600 text-xs">
+      Malik Dirim &#169; 2020 - {{ new Date().getFullYear() }}
+    </div>
   </footer>
 </template>
