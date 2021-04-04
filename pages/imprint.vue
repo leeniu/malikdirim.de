@@ -78,10 +78,16 @@ export default {
     </p>
     <p>
       Die Bild-Darstellungen der Flaggen im Zusammenhang mit der Funktion des Umschaltens der Sprache stammen von
-      <a target="_blank" title="Roundicons" rel="noopener noreferrer" href="https://www.flaticon.com/authors/roundicons"
+      <a title="Roundicons" target="_blank" rel="noopener noreferrer" href="https://www.flaticon.com/authors/roundicons"
         >Roundicons</a
       >, gefunden bei
       <a target="_blank" title="Flaticon" rel="noopener noreferrer" href="https://www.flaticon.com/"
+        >www.flaticon.com</a
+      >
+      Die fliegende Katze auf der Startseite stammt von
+      <a href="https://www.freepik.com" title="Freepik" target="_blank" rel="noopener noreferrer">Freepik</a>, ebenfalls
+      gefunden bei
+      <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noopener noreferrer"
         >www.flaticon.com</a
       >
     </p>
