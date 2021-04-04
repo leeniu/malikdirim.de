@@ -171,7 +171,7 @@ export default {
 
     <section class="w-full md:w-3/8 mb-8 md:mb-0 px-8 sm:px-12 md:px-16 lg:px-0 md:-mt-12">
       <div class="flex justify-center">
-        <md-cat />
+        <md-space-cat />
       </div>
     </section>
   </main>

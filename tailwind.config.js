@@ -22,7 +22,9 @@ module.exports = {
        * https://victoryoalli.me/how-to-create-an-animated-gradient-using-tailwin-css
        */
       animation: {
-        'gradient-x': 'gradient-x 10s ease infinite'
+        'gradient-x': 'gradient-x 10s ease infinite',
+        'spin-slow': 'spin 10s linear infinite',
+        'fly-around': 'fly-around 60s linear infinite'
       },
       keyframes: {
         'gradient-x': {
@@ -33,6 +35,43 @@ module.exports = {
           '50%': {
             'background-size': '200% 200%',
             'background-position': 'right center'
+          }
+        },
+        spin: {
+          from: {
+            transform: 'rotate(0deg)'
+          },
+          to: {
+            transform: 'rotate(360deg)'
+          }
+        },
+        /**
+         * https://support.cargo.site/Make-an-Image-Fly-Across-the-Screen
+         */
+        'fly-around': {
+          '0%': {
+            transform: 'translateX(-170%) translateY(150%) rotate(0deg)'
+          },
+          '25%': {
+            transform: 'translateX(250%) translateY(-100%) rotate(180deg)'
+          },
+          '25.001%': {
+            transform: 'translateX(250%) translateY(100%)'
+          },
+          '50%': {
+            transform: 'translateX(-250%) translateY(10%) rotate(360deg)'
+          },
+          '50.001%': {
+            transform: 'translateX(-10%) translateY(-250%)'
+          },
+          '75%': {
+            transform: 'translateX(50%) translateY(250%) rotate(180deg)'
+          },
+          '75.001%': {
+            transform: 'translateX(250%) translateY(250%)'
+          },
+          '100%': {
+            transform: 'translateX(-250%) translateY(-250%) rotate(360deg)'
           }
         }
       }
