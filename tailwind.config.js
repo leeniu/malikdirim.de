@@ -74,6 +74,9 @@ module.exports = {
             transform: 'translateX(-250%) translateY(-250%) rotate(360deg)'
           }
         }
+      },
+      zIndex: {
+        '-10': '-10'
       }
     },
     fontFamily: {
