@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "nuxt": "^2.15.4",
-    "snyk": "^1.521.0"
+    "snyk": "^1.522.0"
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.4.0",
@@ -41,6 +41,7 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-sonarjs": "^0.6.0",
+    "fibers": "^5.0.0",
     "imagemin-gifsicle": "^7.0.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-pngquant": "^9.0.2",
@@ -49,11 +50,11 @@
     "jest-coverage-badges": "^1.1.2",
     "jest-serializer-vue": "^2.0.2",
     "lqip-loader": "^2.2.1",
-    "node-sass": "^5.0.0",
     "nuxt-compress": "^5.0.0",
     "nuxt-i18n": "^6.22.3",
     "prettier": "^2.2.1",
     "responsive-loader": "^2.3.0",
+    "sass": "^1.32.8",
     "sass-loader": "10.1.1",
     "sharp": "^0.28.0",
     "sqip-loader": "^1.0.0",
