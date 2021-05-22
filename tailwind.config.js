@@ -1,6 +1,7 @@
 // tailwind.config.js
 const { colors } = require('tailwindcss/defaultTheme')
 module.exports = {
+  mode: 'jit',
   purge: ['./pages/**/*.vue', './layouts/**/*.vue', './components/**/*.vue'],
   theme: {
     extend: {
