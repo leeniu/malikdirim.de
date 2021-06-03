@@ -132,7 +132,6 @@ export default {
    * https://github.com/nuxt-community/nuxt-tailwindcss
    */
   tailwindcss: {
-    jit: true,
     configPath: '~/tailwind.config.js',
     cssPath: '~/assets/css/tailwind.css'
   },
