@@ -15,14 +15,14 @@ export default {
   publicRuntimeConfig: {
     appName: process.env.APP_NAME,
     address: {
-      name: process.env.ADDRESS_NAME,
-      street: process.env.ADDRESS_STREET,
-      city: process.env.ADDRESS_CITY,
-      country: process.env.ADDRESS_COUNTRY
+      name: process.env.ADDRESS_NAME || 'Malik Dirim',
+      street: process.env.ADDRESS_STREET || 'Heerstr. 454',
+      city: process.env.ADDRESS_CITY || '13593 Berlin',
+      country: process.env.ADDRESS_COUNTRY || 'Germany'
     },
     emails: {
-      imprint: process.env.EMAIL_IMPRINT,
-      privacy: process.env.EMAIL_PRIVACY
+      imprint: process.env.EMAIL_IMPRINT || 'impressum@malikdirim.de',
+      privacy: process.env.EMAIL_PRIVACY || 'datenschutz@malikdirim.de'
     }
   },
   privateRuntimeConfig: {},
