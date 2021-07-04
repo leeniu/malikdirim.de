@@ -28,68 +28,44 @@ export default {
 <template>
   <main>
     <h1>Datenschutzerklärung</h1>
-    <h2>1. Datenschutz auf einen Blick</h2>
-    <h3>Allgemeine Hinweise</h3>
-    <p>
-      Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert,
-      wenn Sie unsere Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert
-      werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text
-      aufgeführten Datenschutzerklärung.
-    </p>
-    <h3>Datenerfassung auf unserer Website</h3>
-    <p>
-      <strong>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</strong>
-    </p>
-    <p>
-      Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem
-      Impressum dieser Website entnehmen.
-    </p>
-    <p><strong>Wie erfassen wir Ihre Daten?</strong></p>
-    <p>
-      Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten
-      handeln, die Sie in ein Kontaktformular eingeben.
-    </p>
-    <p>
-      Andere Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem
-      technische Daten (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten
-      erfolgt automatisch, sobald Sie unsere Website betreten.
-    </p>
-    <p><strong>Wofür nutzen wir Ihre Daten?</strong></p>
-    <p>
-      Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten
-      können zur Analyse Ihres Nutzerverhaltens verwendet werden.
-    </p>
-    <p><strong>Welche Rechte haben Sie bezüglich Ihrer Daten?</strong></p>
-    <p>
-      Sie haben jederzeit das Recht unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten
-      personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung, Sperrung oder Löschung dieser
-      Daten zu verlangen. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im
-      Impressum angegebenen Adresse an uns wenden. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen
-      Aufsichtsbehörde zu.
-    </p>
-    <p>
-      Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer
-      personenbezogenen Daten zu verlangen. Details hierzu entnehmen Sie der Datenschutzerklärung unter „Recht auf
-      Einschränkung der Verarbeitung“.
-    </p>
-    <h2>2. Allgemeine Hinweise und Pflichtinformationen</h2>
-    <h3>Datenschutz</h3>
-    <p>
-      Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre
-      personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser
-      Datenschutzerklärung.
-    </p>
-    <p>
-      Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind
-      Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert,
-      welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.
-    </p>
-    <p>
-      Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail)
-      Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
-    </p>
-    <h3>Hinweis zur verantwortlichen Stelle</h3>
-    <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
+    <p>Stand: 4. Juli 2021</p>
+    <h2>Inhaltsübersicht</h2>
+    <nav>
+      <ul class="mb-4">
+        <li><a class="underline" href="#m3">Verantwortlicher</a></li>
+        <li>
+          <a class="underline" href="#mOverview">Übersicht der Verarbeitungen</a>
+        </li>
+        <li><a class="underline" href="#m13">Maßgebliche Rechtsgrundlagen</a></li>
+        <li><a class="underline" href="#m27">Sicherheitsmaßnahmen</a></li>
+        <li>
+          <a class="underline" href="#m25">Übermittlung von personenbezogenen Daten</a>
+        </li>
+        <li>
+          <a class="underline" href="#m24">Datenverarbeitung in Drittländern</a>
+        </li>
+        <li><a class="underline" href="#m12">Löschung von Daten</a></li>
+        <li><a class="underline" href="#m134">Einsatz von Cookies</a></li>
+        <li>
+          <a class="underline" href="#m225">Bereitstellung des Onlineangebotes und Webhosting</a>
+        </li>
+        <li><a class="underline" href="#m104">Blogs und Publikationsmedien</a></li>
+        <li><a class="underline" href="#m182">Kontaktaufnahme</a></li>
+        <li>
+          <a class="underline" href="#m263">Webanalyse, Monitoring und Optimierung</a>
+        </li>
+        <li>
+          <a class="underline" href="#m136">Präsenzen in sozialen Netzwerken (Social Media)</a>
+        </li>
+        <li>
+          <a class="underline" href="#m15">Änderung und Aktualisierung der Datenschutzerklärung</a>
+        </li>
+        <li><a class="underline" href="#m10">Rechte der betroffenen Personen</a></li>
+        <li><a class="underline" href="#m42">Begriffsdefinitionen</a></li>
+      </ul>
+    </nav>
+
+    <h2 id="m3">Verantwortlicher</h2>
     <p>
       {{ $config.address.name }}<br />
       {{ $config.address.street }}<br />
@@ -97,147 +73,598 @@ export default {
       {{ $config.address.country }}<br />
     </p>
     <p>E-Mail: {{ $config.emails.privacy }}</p>
+    <h2 id="mOverview">Übersicht der Verarbeitungen</h2>
     <p>
-      Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die
-      Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
+      Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und
+      verweist auf die betroffenen Personen.
     </p>
-    <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
+    <h3>Arten der verarbeiteten Daten</h3>
+    <ul class="mb-4">
+      <li>Bestandsdaten (z.B. Namen, Adressen).</li>
+      <li>Inhaltsdaten (z.B. Eingaben in Onlineformularen).</li>
+      <li>Kontaktdaten (z.B. E-Mail, Telefonnummern).</li>
+      <li>Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).</li>
+      <li>Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).</li>
+    </ul>
+    <h3>Kategorien betroffener Personen</h3>
+    <ul class="mb-4">
+      <li>Kommunikationspartner.</li>
+      <li>Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</li>
+    </ul>
+    <h3>Zwecke der Verarbeitung</h3>
+    <ul class="mb-4">
+      <li>Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit.</li>
+      <li>Direktmarketing (z.B. per E-Mail oder postalisch).</li>
+      <li>Feedback (z.B. Sammeln von Feedback via Online-Formular).</li>
+      <li>Marketing.</li>
+      <li>Kontaktanfragen und Kommunikation.</li>
+      <li>Profile mit nutzerbezogenen Informationen (Erstellen von Nutzerprofilen).</li>
+      <li>Reichweitenmessung (z.B. Zugriffsstatistiken, Erkennung wiederkehrender Besucher).</li>
+      <li>Erbringung vertraglicher Leistungen und Kundenservice.</li>
+    </ul>
+    <h3 id="m13">Maßgebliche Rechtsgrundlagen</h3>
     <p>
-      Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits
-      erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die
-      Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
+      Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir personenbezogene
+      Daten verarbeiten. Bitte nehmen Sie zur Kenntnis, dass neben den Regelungen der DSGVO nationale
+      Datenschutzvorgaben in Ihrem bzw. unserem Wohn- oder Sitzland gelten können. Sollten ferner im Einzelfall
+      speziellere Rechtsgrundlagen maßgeblich sein, teilen wir Ihnen diese in der Datenschutzerklärung mit.
     </p>
-    <h3>Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)</h3>
-    <p>
-      Wenn die Datenverarbeitung auf Grundlage von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, haben Sie jederzeit das
-      Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen die Verarbeitung Ihrer
-      personenbezogenen Daten Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes
-      Profiling. Die jeweilige Rechtsgrundlage, auf denen eine Verarbeitung beruht, entnehmen Sie dieser
-      Datenschutzerklärung. Wenn Sie Widerspruch einlegen, werden wir Ihre betroffenen personenbezogenen Daten nicht
-      mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre
-      Interessen, Rechte und Freiheiten überwiegen oder die Verarbeitung dient der Geltendmachung, Ausübung oder
-      Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs. 1 DSGVO).
-    </p>
-    <p>
-      Werden Ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, jederzeit
-      Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung
-      einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht. Wenn Sie
-      widersprechen, werden Ihre personenbezogenen Daten anschließend nicht mehr zum Zwecke der Direktwerbung verwendet
-      (Widerspruch nach Art. 21 Abs. 2 DSGVO).
-    </p>
-    <h3>Beschwerderecht bei der zuständigen Aufsichtsbehörde</h3>
-    <p>
-      Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde,
-      insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des
-      mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder
-      gerichtlicher Rechtsbehelfe.
-    </p>
-    <h3>Recht auf Datenübertragbarkeit</h3>
-    <p>
-      Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags
-      automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen
-      zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies
-      nur, soweit es technisch machbar ist.
-    </p>
-    <h3>SSL- bzw. TLS-Verschlüsselung</h3>
-    <p>
-      Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel
-      Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-bzw. TLS-Verschlüsselung. Eine
-      verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“
-      wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.
-    </p>
-    <p>
-      Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von
-      Dritten mitgelesen werden.
-    </p>
-    <h3>Auskunft, Sperrung, Löschung und Berichtigung</h3>
-    <p>
-      Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über
-      Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und
-      ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema
-      personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.
-    </p>
-    <h3>Recht auf Einschränkung der Verarbeitung</h3>
-    <p>
-      Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können
-      Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Das Recht auf Einschränkung der
-      Verarbeitung besteht in folgenden Fällen:
-    </p>
-    <ul>
+    <ul class="mb-4">
       <li>
-        Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der
-        Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der
-        Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+        <strong>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a. DSGVO)</strong> - Die betroffene Person hat ihre Einwilligung
+        in die Verarbeitung der sie betreffenden personenbezogenen Daten für einen spezifischen Zweck oder mehrere
+        bestimmte Zwecke gegeben.
       </li>
       <li>
-        Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der
-        Löschung die Einschränkung der Datenverarbeitung verlangen.
+        <strong>Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b. DSGVO)</strong>
+        - Die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder
+        zur Durchführung vorvertraglicher Maßnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen.
       </li>
       <li>
-        Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder
-        Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der
-        Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
-      </li>
-      <li>
-        Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und
-        unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das
-        Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+        <strong>Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO)</strong> - Die Verarbeitung ist zur Wahrung
+        der berechtigten Interessen des Verantwortlichen oder eines Dritten erforderlich, sofern nicht die Interessen
+        oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern,
+        überwiegen.
       </li>
     </ul>
     <p>
-      Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer
-      Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von
-      Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen
-      eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
+      <strong>Nationale Datenschutzregelungen in Deutschland</strong>: Zusätzlich zu den Datenschutzregelungen der
+      Datenschutz-Grundverordnung gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu gehört insbesondere
+      das Gesetz zum Schutz vor Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz –
+      BDSG). Das BDSG enthält insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum
+      Widerspruchsrecht, zur Verarbeitung besonderer Kategorien personenbezogener Daten, zur Verarbeitung für andere
+      Zwecke und zur Übermittlung sowie automatisierten Entscheidungsfindung im Einzelfall einschließlich Profiling. Des
+      Weiteren regelt es die Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses (§ 26 BDSG), insbesondere im
+      Hinblick auf die Begründung, Durchführung oder Beendigung von Beschäftigungsverhältnissen sowie die Einwilligung
+      von Beschäftigten. Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung gelangen.
     </p>
-    <h3>Widerspruch gegen Werbe-E-Mails</h3>
+    <h2 id="m27">Sicherheitsmaßnahmen</h2>
     <p>
-      Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht
-      ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der
-      Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen,
-      etwa durch Spam-E-Mails, vor.
+      Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, der
+      Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der
+      unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes der Bedrohung der Rechte und Freiheiten
+      natürlicher Personen geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes
+      Schutzniveau zu gewährleisten.
     </p>
-    <h2>3. Datenerfassung auf unserer Website</h2>
-    <h3>Server-Log-Dateien</h3>
     <p>
-      Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr
-      Browser automatisch an uns übermittelt. Dies sind:
+      Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten
+      durch Kontrolle des physischen und elektronischen Zugangs zu den Daten als auch des sie betreffenden Zugriffs, der
+      Eingabe, der Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. Des Weiteren haben wir Verfahren
+      eingerichtet, die eine Wahrnehmung von Betroffenenrechten, die Löschung von Daten und Reaktionen auf die
+      Gefährdung der Daten gewährleisten. Ferner berücksichtigen wir den Schutz personenbezogener Daten bereits bei der
+      Entwicklung bzw. Auswahl von Hardware, Software sowie Verfahren entsprechend dem Prinzip des Datenschutzes, durch
+      Technikgestaltung und durch datenschutzfreundliche Voreinstellungen.
     </p>
-    <ul>
-      <li>Browsertyp und Browserversion</li>
-      <li>verwendetes Betriebssystem</li>
-      <li>Referrer URL</li>
-      <li>Hostname des zugreifenden Rechners</li>
-      <li>Uhrzeit der Serveranfrage</li>
-      <li>IP-Adresse</li>
+    <p>
+      <strong>Kürzung der IP-Adresse</strong>: Sofern IP-Adressen von uns oder von den eingesetzten Dienstleistern und
+      Technologien verarbeitet werden und die Verarbeitung einer vollständigen IP-Adresse nicht erforderlich ist, wird
+      die IP-Adresse gekürzt (auch als "IP-Masking" bezeichnet). Hierbei werden die letzten beiden Ziffern, bzw. der
+      letzte Teil der IP-Adresse nach einem Punkt entfernt, bzw. durch Platzhalter ersetzt. Mit der Kürzung der
+      IP-Adresse soll die Identifizierung einer Person anhand ihrer IP-Adresse verhindert oder wesentlich erschwert
+      werden.
+    </p>
+    <p>
+      <strong>SSL-Verschlüsselung (https)</strong>: Um Ihre via unserem Online-Angebot übermittelten Daten zu schützen,
+      nutzen wir eine SSL-Verschlüsselung. Sie erkennen derart verschlüsselte Verbindungen an dem Präfix https:// in der
+      Adresszeile Ihres Browsers.
+    </p>
+    <h2 id="m25">Übermittlung von personenbezogenen Daten</h2>
+    <p>
+      Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor, dass die Daten an andere Stellen,
+      Unternehmen, rechtlich selbstständige Organisationseinheiten oder Personen übermittelt oder sie ihnen gegenüber
+      offengelegt werden. Zu den Empfängern dieser Daten können z.B. mit IT-Aufgaben beauftragte Dienstleister oder
+      Anbieter von Diensten und Inhalten, die in eine Webseite eingebunden werden, gehören. In solchen Fall beachten wir
+      die gesetzlichen Vorgaben und schließen insbesondere entsprechende Verträge bzw. Vereinbarungen, die dem Schutz
+      Ihrer Daten dienen, mit den Empfängern Ihrer Daten ab.
+    </p>
+    <h2 id="m24">Datenverarbeitung in Drittländern</h2>
+    <p>
+      Sofern wir Daten in einem Drittland (d.h., außerhalb der Europäischen Union (EU), des Europäischen
+      Wirtschaftsraums (EWR)) verarbeiten oder die Verarbeitung im Rahmen der Inanspruchnahme von Diensten Dritter oder
+      der Offenlegung bzw. Übermittlung von Daten an andere Personen, Stellen oder Unternehmen stattfindet, erfolgt dies
+      nur im Einklang mit den gesetzlichen Vorgaben.
+    </p>
+    <p>
+      Vorbehaltlich ausdrücklicher Einwilligung oder vertraglich oder gesetzlich erforderlicher Übermittlung verarbeiten
+      oder lassen wir die Daten nur in Drittländern mit einem anerkannten Datenschutzniveau, vertraglichen Verpflichtung
+      durch sogenannte Standardschutzklauseln der EU-Kommission, beim Vorliegen von Zertifizierungen oder verbindlicher
+      internen Datenschutzvorschriften verarbeiten (Art. 44 bis 49 DSGVO, Informationsseite der EU-Kommission:
+      <a
+        href="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de"
+        target="_blank"
+        rel="noopener noreferrer"
+        >https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de</a
+      >).
+    </p>
+    <h2 id="m12">Löschung von Daten</h2>
+    <p>
+      Die von uns verarbeiteten Daten werden nach Maßgabe der gesetzlichen Vorgaben gelöscht, sobald deren zur
+      Verarbeitung erlaubten Einwilligungen widerrufen werden oder sonstige Erlaubnisse entfallen (z.B. wenn der Zweck
+      der Verarbeitung dieser Daten entfallen ist oder sie für den Zweck nicht erforderlich sind).
+    </p>
+    <p>
+      Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich zulässige Zwecke erforderlich sind,
+      wird deren Verarbeitung auf diese Zwecke beschränkt. D.h., die Daten werden gesperrt und nicht für andere Zwecke
+      verarbeitet. Das gilt z.B. für Daten, die aus handels- oder steuerrechtlichen Gründen aufbewahrt werden müssen
+      oder deren Speicherung zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der
+      Rechte einer anderen natürlichen oder juristischen Person erforderlich ist.
+    </p>
+    <p>
+      Unsere Datenschutzhinweise können ferner weitere Angaben zu der Aufbewahrung und Löschung von Daten beinhalten,
+      die für die jeweiligen Verarbeitungen vorrangig gelten.
+    </p>
+    <h2 id="m134">Einsatz von Cookies</h2>
+    <p>
+      Cookies sind Textdateien, die Daten von besuchten Websites oder Domains enthalten und von einem Browser auf dem
+      Computer des Benutzers gespeichert werden. Ein Cookie dient in erster Linie dazu, die Informationen über einen
+      Benutzer während oder nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Zu den gespeicherten
+      Angaben können z.B. die Spracheinstellungen auf einer Webseite, der Loginstatus, ein Warenkorb oder die Stelle, an
+      der ein Video geschaut wurde, gehören. Zu dem Begriff der Cookies zählen wir ferner andere Technologien, die die
+      gleichen Funktionen wie Cookies erfüllen (z.B. wenn Angaben der Nutzer anhand pseudonymer Onlinekennzeichnungen
+      gespeichert werden, auch als "Nutzer-IDs" bezeichnet)
+    </p>
+    <p>
+      <strong>Die folgenden Cookie-Typen und Funktionen werden unterschieden:</strong>
+    </p>
+    <ul class="mb-4">
+      <li>
+        <strong>Temporäre Cookies (auch: Session- oder Sitzungs-Cookies):</strong>&nbsp;Temporäre Cookies werden
+        spätestens gelöscht, nachdem ein Nutzer ein Online-Angebot verlassen und seinen Browser geschlossen hat.
+      </li>
+      <li>
+        <strong>Permanente Cookies:</strong>&nbsp;Permanente Cookies bleiben auch nach dem Schließen des Browsers
+        gespeichert. So kann beispielsweise der Login-Status gespeichert oder bevorzugte Inhalte direkt angezeigt
+        werden, wenn der Nutzer eine Website erneut besucht. Ebenso können die Interessen von Nutzern, die zur
+        Reichweitenmessung oder zu Marketingzwecken verwendet werden, in einem solchen Cookie gespeichert werden.
+      </li>
+      <li><strong>First-Party-Cookies:</strong>&nbsp;First-Party-Cookies werden von uns selbst gesetzt.</li>
+      <li>
+        <strong>Third-Party-Cookies (auch: Drittanbieter-Cookies)</strong>: Drittanbieter-Cookies werden hauptsächlich
+        von Werbetreibenden (sog. Dritten) verwendet, um Benutzerinformationen zu verarbeiten.
+      </li>
+      <li>
+        <strong>Notwendige (auch: essentielle oder unbedingt erforderliche) Cookies:</strong>
+        Cookies können zum einen für den Betrieb einer Webseite unbedingt erforderlich sein (z.B. um Logins oder andere
+        Nutzereingaben zu speichern oder aus Gründen der Sicherheit).
+      </li>
+      <li>
+        <strong>Statistik-, Marketing- und Personalisierungs-Cookies</strong>: Ferner werden Cookies im Regelfall auch
+        im Rahmen der Reichweitenmessung eingesetzt sowie dann, wenn die Interessen eines Nutzers oder sein Verhalten
+        (z.B. Betrachten bestimmter Inhalte, Nutzen von Funktionen etc.) auf einzelnen Webseiten in einem Nutzerprofil
+        gespeichert werden. Solche Profile dienen dazu, den Nutzern z.B. Inhalte anzuzeigen, die ihren potentiellen
+        Interessen entsprechen. Dieses Verfahren wird auch als "Tracking", d.h., Nachverfolgung der potentiellen
+        Interessen der Nutzer bezeichnet. Soweit wir Cookies oder "Tracking"-Technologien einsetzen, informieren wir Sie
+        gesondert in unserer Datenschutzerklärung oder im Rahmen der Einholung einer Einwilligung.
+      </li>
     </ul>
-    <p>Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.</p>
     <p>
-      Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein
-      berechtigtes Interesse an der technisch fehlerfreien Darstellung und der Optimierung seiner Website – hierzu
-      müssen die Server-Log-Files erfasst werden.
-    </p>
-    <h3>Kontaktformular</h3>
-    <p>
-      Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive
-      der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen
-      bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+      <strong>Hinweise zu Rechtsgrundlagen: </strong> Auf welcher Rechtsgrundlage wir Ihre personenbezogenen Daten mit
+      Hilfe von Cookies verarbeiten, hängt davon ab, ob wir Sie um eine Einwilligung bitten. Falls dies zutrifft und Sie
+      in die Nutzung von Cookies einwilligen, ist die Rechtsgrundlage der Verarbeitung Ihrer Daten die erklärte
+      Einwilligung. Andernfalls werden die mithilfe von Cookies verarbeiteten Daten auf Grundlage unserer berechtigten
+      Interessen (z.B. an einem betriebswirtschaftlichen Betrieb unseres Onlineangebotes und dessen Verbesserung)
+      verarbeitet oder, wenn der Einsatz von Cookies erforderlich ist, um unsere vertraglichen Verpflichtungen zu
+      erfüllen.
     </p>
     <p>
-      Die Verarbeitung der in das Kontaktformular eingegebenen Daten erfolgt somit ausschließlich auf Grundlage Ihrer
-      Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können diese Einwilligung jederzeit widerrufen. Dazu reicht eine
-      formlose Mitteilung per E-Mail an uns. Die Rechtmäßigkeit der bis zum Widerruf erfolgten
-      Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.
+      <strong>Speicherdauer: </strong>Sofern wir Ihnen keine expliziten Angaben zur Speicherdauer von permanenten
+      Cookies mitteilen (z. B. im Rahmen eines sog. Cookie-Opt-Ins), gehen Sie bitte davon aus, dass die Speicherdauer
+      bis zu zwei Jahre betragen kann.
     </p>
     <p>
-      Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre
-      Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z.B. nach
-      abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen
-      – bleiben unberührt.
+      <strong>Allgemeine Hinweise zum Widerruf und Widerspruch (Opt-Out): </strong>
+      Abhängig davon, ob die Verarbeitung auf Grundlage einer Einwilligung oder gesetzlichen Erlaubnis erfolgt, haben
+      Sie jederzeit die Möglichkeit, eine erteilte Einwilligung zu widerrufen oder der Verarbeitung Ihrer Daten durch
+      Cookie-Technologien zu widersprechen (zusammenfassend als "Opt-Out" bezeichnet). Sie können Ihren Widerspruch
+      zunächst mittels der Einstellungen Ihres Browsers erklären, z.B., indem Sie die Nutzung von Cookies deaktivieren
+      (wobei hierdurch auch die Funktionsfähigkeit unseres Onlineangebotes eingeschränkt werden kann). Ein Widerspruch
+      gegen den Einsatz von Cookies zu Zwecken des Onlinemarketings kann auch mittels einer Vielzahl von Diensten, vor
+      allem im Fall des Trackings, über die Webseiten
+      <a href="https://optout.aboutads.info" target="_blank" rel="noopener noreferrer">https://optout.aboutads.info</a>
+      und
+      <a href="https://www.youronlinechoices.com/" target="_blank" rel="noopener noreferrer"
+        >https://www.youronlinechoices.com/</a
+      >
+      erklärt werden. Daneben können Sie weitere Widerspruchshinweise im Rahmen der Angaben zu den eingesetzten
+      Dienstleistern und Cookies erhalten.
     </p>
     <p>
-      Quelle:
-      <a href="https://www.e-recht24.de" target="_blank" rel="noopener noreferrer">eRecht24</a>
+      <strong>Verarbeitung von Cookie-Daten auf Grundlage einer Einwilligung</strong>: Wir setzen ein Verfahren zum
+      Cookie-Einwilligungs-Management ein, in dessen Rahmen die Einwilligungen der Nutzer in den Einsatz von Cookies,
+      bzw. der im Rahmen des Cookie-Einwilligungs-Management-Verfahrens genannten Verarbeitungen und Anbieter eingeholt
+      sowie von den Nutzern verwaltet und widerrufen werden können. Hierbei wird die Einwilligungserklärung gespeichert,
+      um deren Abfrage nicht erneut wiederholen zu müssen und die Einwilligung entsprechend der gesetzlichen
+      Verpflichtung nachweisen zu können. Die Speicherung kann serverseitig und/oder in einem Cookie (sogenanntes
+      Opt-In-Cookie, bzw. mithilfe vergleichbarer Technologien) erfolgen, um die Einwilligung einem Nutzer, bzw. dessen
+      Gerät zuordnen zu können. Vorbehaltlich individueller Angaben zu den Anbietern von Cookie-Management-Diensten,
+      gelten die folgenden Hinweise: Die Dauer der Speicherung der Einwilligung kann bis zu zwei Jahren betragen.
+      Hierbei wird ein pseudonymer Nutzer-Identifikator gebildet und mit dem Zeitpunkt der Einwilligung, Angaben zur
+      Reichweite der Einwilligung (z. B. welche Kategorien von Cookies und/oder Diensteanbieter) sowie dem Browser,
+      System und verwendeten Endgerät gespeichert.
     </p>
+    <ul class="m-elements">
+      <li>
+        <strong>Verarbeitete Datenarten:</strong> Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten,
+        Zugriffszeiten), Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
+      </li>
+      <li><strong>Betroffene Personen:</strong> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</li>
+      <li>
+        <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a. DSGVO), Berechtigte Interessen (Art.
+        6 Abs. 1 S. 1 lit. f. DSGVO).
+      </li>
+    </ul>
+    <h2 id="m225">Bereitstellung des Onlineangebotes und Webhosting</h2>
+    <p>
+      Um unser Onlineangebot sicher und effizient bereitstellen zu können, nehmen wir die Leistungen von einem oder
+      mehreren Webhosting-Anbietern in Anspruch, von deren Servern (bzw. von ihnen verwalteten Servern) das
+      Onlineangebot abgerufen werden kann. Zu diesen Zwecken können wir Infrastruktur- und Plattformdienstleistungen,
+      Rechenkapazität, Speicherplatz und Datenbankdienste sowie Sicherheitsleistungen und technische Wartungsleistungen
+      in Anspruch nehmen.
+    </p>
+    <p>
+      Zu den im Rahmen der Bereitstellung des Hostingangebotes verarbeiteten Daten können alle die Nutzer unseres
+      Onlineangebotes betreffenden Angaben gehören, die im Rahmen der Nutzung und der Kommunikation anfallen. Hierzu
+      gehören regelmäßig die IP-Adresse, die notwendig ist, um die Inhalte von Onlineangeboten an Browser ausliefern zu
+      können, und alle innerhalb unseres Onlineangebotes oder von Webseiten getätigten Eingaben.
+    </p>
+    <p>
+      <strong>E-Mail-Versand und -Hosting</strong>: Die von uns in Anspruch genommenen Webhosting-Leistungen umfassen
+      ebenfalls den Versand, den Empfang sowie die Speicherung von E-Mails. Zu diesen Zwecken werden die Adressen der
+      Empfänger sowie Absender als auch weitere Informationen betreffend den E-Mailversand (z.B. die beteiligten
+      Provider) sowie die Inhalte der jeweiligen E-Mails verarbeitet. Die vorgenannten Daten können ferner zu Zwecken
+      der Erkennung von SPAM verarbeitet werden. Wir bitten darum, zu beachten, dass E-Mails im Internet grundsätzlich
+      nicht verschlüsselt versendet werden. Im Regelfall werden E-Mails zwar auf dem Transportweg verschlüsselt, aber
+      (sofern kein sogenanntes Ende-zu-Ende-Verschlüsselungsverfahren eingesetzt wird) nicht auf den Servern, von denen
+      sie abgesendet und empfangen werden. Wir können daher für den Übertragungsweg der E-Mails zwischen dem Absender
+      und dem Empfang auf unserem Server keine Verantwortung übernehmen.
+    </p>
+    <p>
+      <strong>Erhebung von Zugriffsdaten und Logfiles</strong>: Wir selbst (bzw. unser Webhostinganbieter) erheben Daten
+      zu jedem Zugriff auf den Server (sogenannte Serverlogfiles). Zu den Serverlogfiles können die Adresse und Name der
+      abgerufenen Webseiten und Dateien, Datum und Uhrzeit des Abrufs, übertragene Datenmengen, Meldung über
+      erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte
+      Seite) und im Regelfall IP-Adressen und der anfragende Provider gehören.
+    </p>
+    <p>
+      Die Serverlogfiles können zum einen zu Zwecken der Sicherheit eingesetzt werden, z.B., um eine Überlastung der
+      Server zu vermeiden (insbesondere im Fall von missbräuchlichen Angriffen, sogenannten DDoS-Attacken) und zum
+      anderen, um die Auslastung der Server und ihre Stabilität sicherzustellen.
+    </p>
+    <ul class="m-elements">
+      <li>
+        <strong>Verarbeitete Datenarten:</strong> Inhaltsdaten (z.B. Eingaben in Onlineformularen), Nutzungsdaten (z.B.
+        besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten), Meta-/Kommunikationsdaten (z.B.
+        Geräte-Informationen, IP-Adressen).
+      </li>
+      <li><strong>Betroffene Personen:</strong> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</li>
+      <li>
+        <strong>Zwecke der Verarbeitung:</strong> Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit,
+        Erbringung vertraglicher Leistungen und Kundenservice.
+      </li>
+      <li><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).</li>
+    </ul>
+    <p><strong>Eingesetzte Dienste und Diensteanbieter:</strong></p>
+    <ul class="m-elements">
+      <li>
+        <strong>1&amp;1 IONOS:</strong> Hostingplattform für E-Commerce / Websites; Dienstanbieter: 1&amp;1 IONOS SE,
+        Elgendorfer Str. 57, 56410 Montabaur, Deutschland; Website:
+        <a href="https://www.ionos.de" target="_blank" rel="noopener noreferrer">https://www.ionos.de</a>;
+        Datenschutzerklärung:
+        <a href="https://www.ionos.de/terms-gtc/terms-privacy" target="_blank" rel="noopener noreferrer"
+          >https://www.ionos.de/terms-gtc/terms-privacy</a
+        >.
+      </li>
+    </ul>
+    <h2 id="m104">Blogs und Publikationsmedien</h2>
+    <p>
+      Wir nutzen Blogs oder vergleichbare Mittel der Onlinekommunikation und Publikation (nachfolgend
+      "Publikationsmedium"). Die Daten der Leser werden für die Zwecke des Publikationsmediums nur insoweit verarbeitet,
+      als es für dessen Darstellung und die Kommunikation zwischen Autoren und Lesern oder aus Gründen der Sicherheit
+      erforderlich ist. Im Übrigen verweisen wir auf die Informationen zur Verarbeitung der Besucher unseres
+      Publikationsmediums im Rahmen dieser Datenschutzhinweise.
+    </p>
+    <ul class="m-elements">
+      <li>
+        <strong>Verarbeitete Datenarten:</strong> Bestandsdaten (z.B. Namen, Adressen), Kontaktdaten (z.B. E-Mail,
+        Telefonnummern), Inhaltsdaten (z.B. Eingaben in Onlineformularen), Nutzungsdaten (z.B. besuchte Webseiten,
+        Interesse an Inhalten, Zugriffszeiten), Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
+      </li>
+      <li><strong>Betroffene Personen:</strong> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</li>
+      <li>
+        <strong>Zwecke der Verarbeitung:</strong> Erbringung vertraglicher Leistungen und Kundenservice, Feedback (z.B.
+        Sammeln von Feedback via Online-Formular).
+      </li>
+      <li>
+        <strong>Rechtsgrundlagen:</strong> Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b.
+        DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).
+      </li>
+    </ul>
+    <h2 id="m182">Kontaktaufnahme</h2>
+    <p>
+      Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail, Telefon oder via soziale Medien) werden die
+      Angaben der anfragenden Personen verarbeitet, soweit dies zur Beantwortung der Kontaktanfragen und etwaiger
+      angefragter Maßnahmen erforderlich ist.
+    </p>
+    <p>
+      Die Beantwortung der Kontaktanfragen im Rahmen von vertraglichen oder vorvertraglichen Beziehungen erfolgt zur
+      Erfüllung unserer vertraglichen Pflichten oder zur Beantwortung von (vor)vertraglichen Anfragen und im Übrigen auf
+      Grundlage der berechtigten Interessen an der Beantwortung der Anfragen.
+    </p>
+    <ul class="m-elements">
+      <li>
+        <strong>Verarbeitete Datenarten:</strong> Bestandsdaten (z.B. Namen, Adressen), Kontaktdaten (z.B. E-Mail,
+        Telefonnummern), Inhaltsdaten (z.B. Eingaben in Onlineformularen).
+      </li>
+      <li><strong>Betroffene Personen:</strong> Kommunikationspartner.</li>
+      <li><strong>Zwecke der Verarbeitung:</strong> Kontaktanfragen und Kommunikation.</li>
+      <li>
+        <strong>Rechtsgrundlagen:</strong> Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b.
+        DSGVO), Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).
+      </li>
+    </ul>
+    <h2 id="m263">Webanalyse, Monitoring und Optimierung</h2>
+    <p>
+      Die Webanalyse (auch als "Reichweitenmessung" bezeichnet) dient der Auswertung der Besucherströme unseres
+      Onlineangebotes und kann Verhalten, Interessen oder demographische Informationen zu den Besuchern, wie z.B. das
+      Alter oder das Geschlecht, als pseudonyme Werte umfassen. Mit Hilfe der Reichweitenanalyse können wir z.B.
+      erkennen, zu welcher Zeit unser Onlineangebot oder dessen Funktionen oder Inhalte am häufigsten genutzt werden
+      oder zur Wiederverwendung einladen. Ebenso können wir nachvollziehen, welche Bereiche der Optimierung bedürfen.
+    </p>
+    <p>
+      Neben der Webanalyse können wir auch Testverfahren einsetzen, um z.B. unterschiedliche Versionen unseres
+      Onlineangebotes oder seiner Bestandteile zu testen und optimieren.
+    </p>
+    <p>
+      Zu diesen Zwecken können sogenannte Nutzerprofile angelegt und in einer Datei (sogenannte "Cookie") gespeichert
+      oder ähnliche Verfahren mit dem gleichen Zweck genutzt werden. Zu diesen Angaben können z.B. betrachtete Inhalte,
+      besuchte Webseiten und dort genutzte Elemente und technische Angaben, wie der verwendete Browser, das verwendete
+      Computersystem sowie Angaben zu Nutzungszeiten gehören. Sofern Nutzer in die Erhebung ihrer Standortdaten
+      eingewilligt haben, können je nach Anbieter auch diese verarbeitet werden.
+    </p>
+    <p>
+      Es werden ebenfalls die IP-Adressen der Nutzer gespeichert. Jedoch nutzen wir ein IP-Masking-Verfahren (d.h.,
+      Pseudonymisierung durch Kürzung der IP-Adresse) zum Schutz der Nutzer. Generell werden die im Rahmen von
+      Webanalyse, A/B-Testings und Optimierung keine Klardaten der Nutzer (wie z.B. E-Mail-Adressen oder Namen)
+      gespeichert, sondern Pseudonyme. D.h., wir als auch die Anbieter der eingesetzten Software kennen nicht die
+      tatsächliche Identität der Nutzer, sondern nur den für Zwecke der jeweiligen Verfahren in deren Profilen
+      gespeicherten Angaben.
+    </p>
+    <p>
+      <strong>Hinweise zu Rechtsgrundlagen:</strong> Sofern wir die Nutzer um deren Einwilligung in den Einsatz der
+      Drittanbieter bitten, ist die Rechtsgrundlage der Verarbeitung von Daten die Einwilligung. Ansonsten werden die
+      Daten der Nutzer auf Grundlage unserer berechtigten Interessen (d.h. Interesse an effizienten, wirtschaftlichen
+      und empfängerfreundlichen Leistungen) verarbeitet. In diesem Zusammenhang möchten wir Sie auch auf die
+      Informationen zur Verwendung von Cookies in dieser Datenschutzerklärung hinweisen.
+    </p>
+    <ul class="m-elements">
+      <li>
+        <strong>Verarbeitete Datenarten:</strong> Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten,
+        Zugriffszeiten), Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
+      </li>
+      <li><strong>Betroffene Personen:</strong> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</li>
+      <li>
+        <strong>Zwecke der Verarbeitung:</strong> Reichweitenmessung (z.B. Zugriffsstatistiken, Erkennung
+        wiederkehrender Besucher), Profile mit nutzerbezogenen Informationen (Erstellen von Nutzerprofilen).
+      </li>
+      <li><strong>Sicherheitsmaßnahmen:</strong> IP-Masking (Pseudonymisierung der IP-Adresse).</li>
+      <li>
+        <strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a. DSGVO), Berechtigte Interessen (rt.
+        6 Abs. 1 S. 1 lit. f. DSGVO).
+      </li>
+    </ul>
+    <p><strong>Eingesetzte Dienste und Diensteanbieter:</strong></p>
+    <ul class="m-elements">
+      <li>
+        <strong>Matomo (ohne Cookies):</strong> Bei Matomo handelt es sich um eine datenschutzfreundliche
+        Webanalysesoftware, die ohne Cookies eingesetzt wird und bei der die Erkennnung wiederkehrender Nutzer mit Hilfe
+        eines so genannten "digitalen Fingerabdrucks" erfolgt, der anonymisiert gespeichert und alle 24 Stunden geändert
+        wird; Beim "digitalen Fingerabdruck" werden Nutzerbewegungen innerhalb unseres Onlineangebotes mit Hilfe von
+        pseudonymisierten IP-Adressen in Kombination mit nutzerseitige Browsereinstellungen so erfasst, dass
+        Rückschlüsse auf die Identität einzelner Nutzer nicht möglich sind; Dienstanbieter: Webanalyse/
+        Reichweitenmessung im Selbsthosting; Website:
+        <a href="https://matomo.org/" target="_blank" rel="noopener noreferrer">https://matomo.org/</a>.
+      </li>
+    </ul>
+    <h2 id="m136">Präsenzen in sozialen Netzwerken (Social Media)</h2>
+    <p>
+      Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und verarbeiten in diesem Rahmen Daten der Nutzer, um
+      mit den dort aktiven Nutzern zu kommunizieren oder um Informationen über uns anzubieten.
+    </p>
+    <p>
+      Wir weisen darauf hin, dass dabei Daten der Nutzer außerhalb des Raumes der Europäischen Union verarbeitet werden
+      können. Hierdurch können sich für die Nutzer Risiken ergeben, weil so z.B. die Durchsetzung der Rechte der Nutzer
+      erschwert werden könnte.
+    </p>
+    <p>
+      Ferner werden die Daten der Nutzer innerhalb sozialer Netzwerke im Regelfall für Marktforschungs- und Werbezwecke
+      verarbeitet. So können z.B. anhand des Nutzungsverhaltens und sich daraus ergebender Interessen der Nutzer
+      Nutzungsprofile erstellt werden. Die Nutzungsprofile können wiederum verwendet werden, um z.B. Werbeanzeigen
+      innerhalb und außerhalb der Netzwerke zu schalten, die mutmaßlich den Interessen der Nutzer entsprechen. Zu diesen
+      Zwecken werden im Regelfall Cookies auf den Rechnern der Nutzer gespeichert, in denen das Nutzungsverhalten und
+      die Interessen der Nutzer gespeichert werden. Ferner können in den Nutzungsprofilen auch Daten unabhängig der von
+      den Nutzern verwendeten Geräte gespeichert werden (insbesondere, wenn die Nutzer Mitglieder der jeweiligen
+      Plattformen sind und bei diesen eingeloggt sind).
+    </p>
+    <p>
+      Für eine detaillierte Darstellung der jeweiligen Verarbeitungsformen und der Widerspruchsmöglichkeiten (Opt-Out)
+      verweisen wir auf die Datenschutzerklärungen und Angaben der Betreiber der jeweiligen Netzwerke.
+    </p>
+    <p>
+      Auch im Fall von Auskunftsanfragen und der Geltendmachung von Betroffenenrechten weisen wir darauf hin, dass diese
+      am effektivsten bei den Anbietern geltend gemacht werden können. Nur die Anbieter haben jeweils Zugriff auf die
+      Daten der Nutzer und können direkt entsprechende Maßnahmen ergreifen und Auskünfte geben. Sollten Sie dennoch
+      Hilfe benötigen, dann können Sie sich an uns wenden.
+    </p>
+    <ul class="m-elements">
+      <li>
+        <strong>Verarbeitete Datenarten:</strong> Kontaktdaten (z.B. E-Mail, Telefonnummern), Inhaltsdaten (z.B.
+        Eingaben in Onlineformularen), Nutzungsdaten (z.B. besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten),
+        Meta-/Kommunikationsdaten (z.B. Geräte-Informationen, IP-Adressen).
+      </li>
+      <li><strong>Betroffene Personen:</strong> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).</li>
+      <li>
+        <strong>Zwecke der Verarbeitung:</strong> Kontaktanfragen und Kommunikation, Feedback (z.B. Sammeln von Feedback
+        via Online-Formular), Marketing.
+      </li>
+      <li><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f. DSGVO).</li>
+    </ul>
+    <p><strong>Eingesetzte Dienste und Diensteanbieter:</strong></p>
+    <ul class="m-elements">
+      <li>
+        <strong>Twitter:</strong> Soziales Netzwerk; Dienstanbieter: Twitter International Company, One Cumberland
+        Place, Fenian Street, Dublin 2 D02 AX07, Irland, Mutterunternehmen: Twitter Inc., 1355 Market Street, Suite 900,
+        San Francisco, CA 94103, USA; Datenschutzerklärung:
+        <a href="https://twitter.com/de/privacy" target="_blank" rel="noopener noreferrer"
+          >https://twitter.com/de/privacy</a
+        >, (Einstellungen)
+        <a href="https://twitter.com/personalization" target="_blank" rel="noopener noreferrer"
+          >https://twitter.com/personalization</a
+        >.
+      </li>
+      <li>
+        <strong>Xing:</strong> Soziales Netzwerk; Dienstanbieter: XING AG, Dammtorstraße 29-32, 20354 Hamburg,
+        Deutschland; Website:
+        <a href="https://www.xing.de" target="_blank" rel="noopener noreferrer">https://www.xing.de</a>;
+        Datenschutzerklärung:
+        <a href="https://privacy.xing.com/de/datenschutzerklaerung" target="_blank" rel="noopener noreferrer"
+          >https://privacy.xing.com/de/datenschutzerklaerung</a
+        >.
+      </li>
+    </ul>
+    <h2 id="m15">Änderung und Aktualisierung der Datenschutzerklärung</h2>
+    <p>
+      Wir bitten Sie, sich regelmäßig über den Inhalt unserer Datenschutzerklärung zu informieren. Wir passen die
+      Datenschutzerklärung an, sobald die Änderungen der von uns durchgeführten Datenverarbeitungen dies erforderlich
+      machen. Wir informieren Sie, sobald durch die Änderungen eine Mitwirkungshandlung Ihrerseits (z.B. Einwilligung)
+      oder eine sonstige individuelle Benachrichtigung erforderlich wird.
+    </p>
+    <p>
+      Sofern wir in dieser Datenschutzerklärung Adressen und Kontaktinformationen von Unternehmen und Organisationen
+      angeben, bitten wir zu beachten, dass die Adressen sich über die Zeit ändern können und bitten die Angaben vor
+      Kontaktaufnahme zu prüfen.
+    </p>
+    <h2 id="m10">Rechte der betroffenen Personen</h2>
+    <p>
+      Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus Art. 15 bis 21 DSGVO
+      ergeben:
+    </p>
+    <ul class="mb-4">
+      <li>
+        <strong
+          >Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben,
+          jederzeit gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1
+          lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes
+          Profiling. Werden die Sie betreffenden personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben,
+          haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten
+          zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher
+          Direktwerbung in Verbindung steht.</strong
+        >
+      </li>
+      <li>
+        <strong>Widerrufsrecht bei Einwilligungen:</strong> Sie haben das Recht, erteilte Einwilligungen jederzeit zu
+        widerrufen.
+      </li>
+      <li>
+        <strong>Auskunftsrecht:</strong> Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob betreffende
+        Daten verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere Informationen und Kopie der Daten
+        entsprechend den gesetzlichen Vorgaben.
+      </li>
+      <li>
+        <strong>Recht auf Berichtigung:</strong> Sie haben entsprechend den gesetzlichen Vorgaben das Recht, die
+        Vervollständigung der Sie betreffenden Daten oder die Berichtigung der Sie betreffenden unrichtigen Daten zu
+        verlangen.
+      </li>
+      <li>
+        <strong>Recht auf Löschung und Einschränkung der Verarbeitung:</strong> Sie haben nach Maßgabe der gesetzlichen
+        Vorgaben das Recht, zu verlangen, dass Sie betreffende Daten unverzüglich gelöscht werden, bzw. alternativ nach
+        Maßgabe der gesetzlichen Vorgaben eine Einschränkung der Verarbeitung der Daten zu verlangen.
+      </li>
+      <li>
+        <strong>Recht auf Datenübertragbarkeit:</strong> Sie haben das Recht, Sie betreffende Daten, die Sie uns
+        bereitgestellt haben, nach Maßgabe der gesetzlichen Vorgaben in einem strukturierten, gängigen und
+        maschinenlesbaren Format zu erhalten oder deren Übermittlung an einen anderen Verantwortlichen zu fordern.
+      </li>
+      <li>
+        <strong>Beschwerde bei Aufsichtsbehörde:</strong> Sie haben unbeschadet eines anderweitigen
+        verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs das Recht auf Beschwerde bei einer Aufsichtsbehörde,
+        insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des
+        mutmaßlichen Verstoßes, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen
+        Daten gegen die Vorgaben der DSGVO verstößt.
+      </li>
+    </ul>
+    <h2 id="m42">Begriffsdefinitionen</h2>
+    <p>
+      In diesem Abschnitt erhalten Sie eine Übersicht über die in dieser Datenschutzerklärung verwendeten
+      Begrifflichkeiten. Viele der Begriffe sind dem Gesetz entnommen und vor allem im Art. 4 DSGVO definiert. Die
+      gesetzlichen Definitionen sind verbindlich. Die nachfolgenden Erläuterungen sollen dagegen vor allem dem
+      Verständnis dienen. Die Begriffe sind alphabetisch sortiert.
+    </p>
+    <ul class="glossary">
+      <li>
+        <strong>IP-Masking:</strong> Als "IP-Masking” wird eine Methode bezeichnet, bei der das letzte Oktett, d.h., die
+        letzten beiden Zahlen einer IP-Adresse, gelöscht wird, damit die IP-Adresse nicht mehr der eindeutigen
+        Identifizierung einer Person dienen kann. Daher ist das IP-Masking ein Mittel zur Pseudonymisierung von
+        Verarbeitungsverfahren, insbesondere im Onlinemarketing
+      </li>
+      <li>
+        <strong>Personenbezogene Daten:</strong> "Personenbezogene Daten“ sind alle Informationen, die sich auf eine
+        identifizierte oder identifizierbare natürliche Person (im Folgenden "betroffene Person“) beziehen; als
+        identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung
+        zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung (z.B. Cookie)
+        oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen,
+        physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser
+        natürlichen Person sind.
+      </li>
+      <li>
+        <strong>Profile mit nutzerbezogenen Informationen:</strong> Die Verarbeitung von "Profilen mit nutzerbezogenen
+        Informationen", bzw. kurz "Profilen" umfasst jede Art der automatisierten Verarbeitung personenbezogener Daten,
+        die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die
+        sich auf eine natürliche Person beziehen (je nach Art der Profilbildung können dazu unterschiedliche
+        Informationen betreffend die Demographie, Verhalten und Interessen, wie z.B. die Interaktion mit Webseiten und
+        deren Inhalten, etc.) zu analysieren, zu bewerten oder, um sie vorherzusagen (z.B. die Interessen an bestimmten
+        Inhalten oder Produkten, das Klickverhalten auf einer Webseite oder den Aufenthaltsort). Zu Zwecken des
+        Profilings werden häufig Cookies und Web-Beacons eingesetzt.
+      </li>
+      <li>
+        <strong>Reichweitenmessung:</strong> Die Reichweitenmessung (auch als Web Analytics bezeichnet) dient der
+        Auswertung der Besucherströme eines Onlineangebotes und kann das Verhalten oder Interessen der Besucher an
+        bestimmten Informationen, wie z.B. Inhalten von Webseiten, umfassen. Mit Hilfe der Reichweitenanalyse können
+        Webseiteninhaber z.B. erkennen, zu welcher Zeit Besucher ihre Webseite besuchen und für welche Inhalte sie sich
+        interessieren. Dadurch können sie z.B. die Inhalte der Webseite besser an die Bedürfnisse ihrer Besucher
+        anpassen. Zu Zwecken der Reichweitenanalyse werden häufig pseudonyme Cookies und Web-Beacons eingesetzt, um
+        wiederkehrende Besucher zu erkennen und so genauere Analysen zur Nutzung eines Onlineangebotes zu erhalten.
+      </li>
+      <li>
+        <strong>Verantwortlicher:</strong> Als "Verantwortlicher“ wird die natürliche oder juristische Person, Behörde,
+        Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der
+        Verarbeitung von personenbezogenen Daten entscheidet, bezeichnet.
+      </li>
+      <li>
+        <strong>Verarbeitung:</strong> "Verarbeitung" ist jeder mit oder ohne Hilfe automatisierter Verfahren
+        ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff
+        reicht weit und umfasst praktisch jeden Umgang mit Daten, sei es das Erheben, das Auswerten, das Speichern, das
+        Übermitteln oder das Löschen.
+      </li>
+    </ul>
   </main>
 </template>
