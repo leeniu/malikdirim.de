@@ -179,6 +179,10 @@ export default {
    */
   i18n: {
     defaultLocale: 'de',
+    detectBrowserLanguage: {
+      useCookie: false,
+      onlyOnRoot: true
+    },
     locales: [
       {
         iso: 'de',
